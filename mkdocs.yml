@@ -26,9 +26,8 @@ theme:
 
 nav:
   - Home:
-      - ' ':  # prevents "Home" label in sidebar
-          - Index: index.md
-          - Guide: guide.md
+    - Index: index.md
+    - Guide: guide.md
   - About: about.md
 
 docs_dir: docs
