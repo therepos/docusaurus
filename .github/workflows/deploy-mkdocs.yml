@@ -33,12 +33,6 @@ jobs:
       - name: Build the MkDocs site
         run: mkdocs build --strict
 
-      - name: Add cache-busting hash to CSS/JS
-        run: |
-          HASH=$(git rev-parse --short HEAD)
-          find site -name '*.html' -exec sed -i "s/\.css/.css?v=$HASH/g" {} +
-          find site -name '*.html' -exec sed -i "s/\.js/.js?v=$HASH/g" {} +
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
