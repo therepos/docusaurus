@@ -26,8 +26,9 @@ theme:
 
 nav:
   - Home: 
-    - Index: index.md
-    - Guide: guide.md
+    - ' ':
+      - Index: index.md
+      - Guide: guide.md
   - About: about.md
 
 docs_dir: docs
