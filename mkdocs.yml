@@ -1,4 +1,7 @@
 site_name: My Docs
+site_url: https://your-site.github.io  # optional, helps with sitemap and SEO
+repo_url: https://github.com/your-username/your-repo
+repo_name: GitHub
 
 theme:
   name: material
@@ -6,6 +9,22 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
+    - navigation.top
+    - navigation.expand
+    - content.code.annotate
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home: index.md
@@ -13,3 +32,15 @@ nav:
   - About: about.md
 
 docs_dir: docs
+edit_uri: edit/main/docs/  # enables "Edit this page" links
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
