@@ -25,10 +25,10 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home: 
-    - ' ':
-      - Index: index.md
-      - Guide: guide.md
+  - Home:
+      - ' ':  # prevents "Home" label in sidebar
+          - Index: index.md
+          - Guide: guide.md
   - About: about.md
 
 docs_dir: docs
