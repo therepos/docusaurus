@@ -25,7 +25,7 @@ theme:
     code: Roboto Mono
 
 nav:
-  - '': 
+  - Home: 
     - Index: index.md
     - Guide: guide.md
   - About: about.md
@@ -41,3 +41,6 @@ plugins:
   - search
   - git-revision-date-localized:
       type: timeago
+
+extra_css:
+  - styles/extra.css
