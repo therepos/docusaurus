@@ -6,6 +6,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - content.code.annotate
   palette:
     - scheme: default
@@ -25,10 +26,11 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home: index.md  # top tab
-  - '':             # invisible sidebar group
-      - Guide: guide.md
-  - About: about.md
+  - Home:
+      - index.md
+      - guide.md
+  - About:
+      - about.md
 
 docs_dir: docs
 
