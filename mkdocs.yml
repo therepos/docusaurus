@@ -25,9 +25,9 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home:
-    - Index: index.md
-    - Guide: guide.md
+  - Home: index.md  # top tab
+  - '':             # invisible sidebar group
+      - Guide: guide.md
   - About: about.md
 
 docs_dir: docs
