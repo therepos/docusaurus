@@ -22,8 +22,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/logo.png  # optional custom logo
-  favicon: assets/favicon.ico  # optional
 
 nav:
   - Home: index.md
