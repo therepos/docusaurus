@@ -35,7 +35,6 @@ nav:
   - About: about.md
 
 docs_dir: docs
-edit_uri: edit/main/docs/
 
 markdown_extensions:
   - admonition
