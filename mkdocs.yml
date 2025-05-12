@@ -9,6 +9,7 @@ theme:
     - navigation.indexes
     - navigation.footer
     - navigation.top
+    - navigation.tabs
     - navigation.tracking
     # content
     - content.code.annotate
@@ -41,7 +42,9 @@ plugins:
   - search
   - git-revision-date-localized:
       type: timeago
-
+  - minify:
+      minify_html: true
+      
 markdown_extensions:
   - admonition
   - toc:
