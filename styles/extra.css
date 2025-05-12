@@ -1,6 +1,6 @@
 /* Left navigation bar */
 .md-nav__title {
-  display: none;
+  display: none !important;
 }
 
 /* Right navigation bar */
