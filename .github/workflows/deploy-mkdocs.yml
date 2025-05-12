@@ -28,8 +28,7 @@ jobs:
           pip install \
             mkdocs \
             mkdocs-material \
-            mkdocs-git-revision-date-localized-plugin \
-            mkdocs-simple-hooks
+            mkdocs-git-revision-date-localized-plugin
 
       - name: Build the MkDocs site
         run: mkdocs build --strict
