@@ -29,9 +29,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Guide:
-      - Intro: guide.md
-      - Extra: extra.md
+  - Guide: guide.md
   - About: about.md
 
 docs_dir: docs
