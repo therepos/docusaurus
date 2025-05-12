@@ -1,4 +1,15 @@
 site_name: My Docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
 nav:
   - Home: index.md
+  - Guide: guide.md
+  - About: about.md
+
 docs_dir: docs
