@@ -42,7 +42,10 @@ plugins:
   - search
   - git-revision-date-localized:
       type: timeago
-
+  - simple-hooks:
+      hooks:
+        on_post_build: "scripts.cache_bust:append_cache_buster"
+        
 markdown_extensions:
   - admonition
   - toc:
