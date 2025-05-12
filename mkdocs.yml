@@ -3,17 +3,13 @@ site_name: My Docs
 theme:
   name: material
   features:
-    # navigation
     - navigation.sections
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
-    - navigation.footer
     - navigation.top
     - navigation.tabs
     - navigation.tracking
-    # content
     - content.code.annotate
-    - toc.follow
   palette:
     - scheme: default
       primary: white
