@@ -25,7 +25,11 @@ jobs:
 
       - name: Install MkDocs and dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-simple-hooks-plugin
+          pip install \
+            mkdocs \
+            mkdocs-material \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-simple-hooks
 
       - name: Build the MkDocs site
         run: mkdocs build --strict
