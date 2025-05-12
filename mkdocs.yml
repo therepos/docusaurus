@@ -1,44 +1,44 @@
 site_name: My Docs
-site_url: https://your-site.github.io  # optional, helps with sitemap and SEO
-repo_url: https://github.com/your-username/your-repo
-repo_name: GitHub
 
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
-    - toc.integrate
-    - navigation.top
     - navigation.expand
+    - toc.integrate
     - content.code.annotate
     - content.action.edit
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
+    - scheme: default
+      primary: white
       accent: indigo
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
       accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
+  logo: assets/logo.png  # optional custom logo
+  favicon: assets/favicon.ico  # optional
 
 nav:
   - Home: index.md
-  - Guide: guide.md
+  - Guide:
+      - Intro: guide.md
+      - Extra: extra.md
   - About: about.md
 
 docs_dir: docs
-edit_uri: edit/main/docs/  # enables "Edit this page" links
+edit_uri: edit/main/docs/
 
 markdown_extensions:
   - admonition
-  - codehilite
-  - footnotes
-  - tables
   - toc:
       permalink: true
 
