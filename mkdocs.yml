@@ -3,9 +3,9 @@ site_name: My Docs
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - content.code.annotate
   palette:
     - scheme: default
@@ -26,10 +26,10 @@ theme:
 
 nav:
   - Home:
-      - index.md
-      - guide.md
+      - Hotpot: index.md
+      - Guide: guide.md
   - About:
-      - about.md
+      - Welcome: about.md
 
 docs_dir: docs
 
