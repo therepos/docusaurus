@@ -6,7 +6,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.indexes
     - content.code.annotate
   palette:
     - scheme: default
