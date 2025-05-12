@@ -42,9 +42,7 @@ plugins:
   - search
   - git-revision-date-localized:
       type: timeago
-  - minify:
-      minify_html: true
-      
+
 markdown_extensions:
   - admonition
   - toc:
