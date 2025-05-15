@@ -30,15 +30,26 @@ jobs:
             mkdocs-material \
             mkdocs-git-revision-date-localized-plugin
 
-      - name: Compute hash and rename styles.css
+      - name: Compute hash and rename styles.css + scroll-offset.js
         run: |
-          FILE="docs/extra/styles.css"
-          HASH=$(sha1sum "$FILE" | cut -c1-8)
-          HASHED="docs/extra/styles.$HASH.css"
-          mv "$FILE" "$HASHED"
+          # Define both source files
+          CSS_FILE="docs/extra/styles.css"
+          JS_FILE="docs/extra/scroll-offset.js"
 
-          # Replace in mkdocs.yml
+          # Compute a combined hash based on both files' content
+          HASH=$(cat "$CSS_FILE" "$JS_FILE" | sha1sum | cut -c1-8)
+
+          # Define new hashed filenames
+          HASHED_CSS="docs/extra/styles.$HASH.css"
+          HASHED_JS="docs/extra/scroll-offset.$HASH.js"
+
+          # Rename files
+          mv "$CSS_FILE" "$HASHED_CSS"
+          mv "$JS_FILE" "$HASHED_JS"
+
+          # Update mkdocs.yml
           sed -i "s|extra/styles.css|extra/styles.$HASH.css|g" mkdocs.yml
+          sed -i "s|extra/scroll-offset.js|extra/scroll-offset.$HASH.js|g" mkdocs.yml
 
       - name: Build the MkDocs site
         run: mkdocs build --strict
