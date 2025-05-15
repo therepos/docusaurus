@@ -40,7 +40,7 @@
 }
 
 .md-typeset table {
-  font-size: 1em; /* match body */
+    font-size: 1.25em;
 }
 
 .md-typeset h1,
