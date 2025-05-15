@@ -17,3 +17,4 @@
 - Vibes – Events, music, her life.
 - Stereotypes – Weather, sports, politics, girl stuff, work, money.  
 - Abstracts – Philosophy, future, ambitions, past.
+
