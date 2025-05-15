@@ -32,7 +32,7 @@ nav:
       - Hotpot: index.md
       - Guide: guide.md
   - About:
-      - Overview: about.md
+      - about.md
       - Welcome: about.md
 
 plugins:
@@ -46,4 +46,4 @@ markdown_extensions:
       permalink: true
 
 extra_css:
-  - styles/extra.css
+  - extra/styles.css
