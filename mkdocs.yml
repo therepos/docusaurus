@@ -31,7 +31,7 @@ nav:
   - Home:
     - Hotpot: index.md
     - Guide: guide.md
-  - About:
+  - About: about.md
     - Welcome: about.md
 
 plugins:
