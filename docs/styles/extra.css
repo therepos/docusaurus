@@ -26,7 +26,7 @@ body, .md-typeset {
 
 .md-typeset table td,
 .md-typeset table th {
-  font-size: 1.08em;
+  font-size: 1.10em;
 }
 
 .md-typeset h1,
@@ -44,14 +44,10 @@ body, .md-typeset {
   text-rendering: optimizeLegibility;
 }
 
-.md-typeset h1 .headerlink::before,
-.md-typeset h2 .headerlink::before,
-.md-typeset h3 .headerlink::before,
-.md-typeset h4 .headerlink::before,
-.md-typeset h5 .headerlink::before,
-.md-typeset h6 .headerlink::before {
-  content: "🔗";
+.md-typeset .headerlink::before {
+  content: "🔗"; /* Or just use '' to remove it entirely */
   font-size: 0.8em;
   margin-left: 0.2em;
-  color: gray;
+  color: #999;
 }
+
