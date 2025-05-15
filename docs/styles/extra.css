@@ -8,7 +8,7 @@
   display: none;
 } */
 
-h1 {
+.md-typeset h1 {
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -19,7 +19,7 @@ h1 {
     unicode-bidi: isolate;
 }
 
-h2 {
+.md-typeset h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -30,7 +30,7 @@ h2 {
     unicode-bidi: isolate;
 }
 
-h3 {
+.md-typeset h3 {
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
