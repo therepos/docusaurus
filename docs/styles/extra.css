@@ -9,6 +9,7 @@
 } */
 
 .md-typeset h1 {
+    color: black;
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -20,6 +21,7 @@
 }
 
 .md-typeset h2 {
+    color: black;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -31,6 +33,7 @@
 }
 
 .md-typeset h3 {
+    color: black;
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
