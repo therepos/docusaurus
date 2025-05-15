@@ -119,6 +119,12 @@ body, .md-typeset {
   letter-spacing: 0.025em;
 }
 
+.md-typeset h1:target,
+.md-typeset h2:target,
+.md-typeset h3:target {
+    --md-scroll-offset: 0.2rem;
+}
+
 /* ======================================== 
    Custom Text
 =========================================*/ 
