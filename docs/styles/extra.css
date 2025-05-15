@@ -33,9 +33,7 @@
 .md-typeset table td,
 .md-typeset table th {
   font-size: 1em;
-  border-collapse: collapse;
   width: 100%;
-  padding: 0.75em;
   border: 1px solid #ddd;
 }
 
@@ -58,14 +56,4 @@ body, .md-typeset {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-}
-
-.md-nav__title {
-  font-size: 1.2em;
-  font-weight: 600;
-}
-
-.md-nav__link {
-  font-size: 1em;
-  padding: 0.5em 1em;
 }
