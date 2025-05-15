@@ -1,7 +1,6 @@
 # Videos
 
-## Good Web Stream Format
-
+### Good Web Stream Format
 <h7>File Format</h7> : mp4 <br>
 <h7>Video Codec</h7> : H.264 (avc1) <br>
 <h7>Video Profile Baseline</h7> : Profile (77) <br>
