@@ -52,5 +52,5 @@ markdown_extensions:
 extra_css:
   - extra/styles.css
 
-# extra_javascript:
-#   - extra/scroll-offset.js
+extra_javascript:
+  - extra/scroll-offset.js
