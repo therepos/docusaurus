@@ -33,7 +33,7 @@ nav:
       - Guide: guide.md
   - About:
       - sec-about/index.md
-      - Welcome: guide.md
+      - Welcome: welcome.md
 
 plugins:
   - search
