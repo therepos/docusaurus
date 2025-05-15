@@ -107,3 +107,15 @@ body, .md-typeset {
   color: var(--custom-heading-color);
   letter-spacing: 0.025em;
 }
+
+/* ======================================== 
+   Custom Text
+=========================================*/ 
+
+h7 {
+  color: #1a73e8;         /* Google-style blue */
+  font-size: 1em;         /* Match normal text */
+  font-weight: normal;    /* Not bold */
+  display: inline;        /* Inline, not block */
+  margin: 0;              /* Prevent spacing issues */
+}
