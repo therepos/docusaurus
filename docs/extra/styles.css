@@ -9,7 +9,7 @@
 }
 
 body, .md-typeset {
-  font-size: 0.9em;
+  font-size: 1em;
   font-feature-settings: "kern", "liga";
   letter-spacing: 0.025em;
   -webkit-font-smoothing: antialiased;
