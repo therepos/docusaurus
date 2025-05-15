@@ -29,10 +29,10 @@ theme:
 
 nav:
   - Home:
-      - Hotpot: index.md
+      - index.md
       - Guide: guide.md
   - About:
-      - about.md
+      - sec-about/index.md
       - Welcome: about.md
 
 plugins:
