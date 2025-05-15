@@ -26,7 +26,6 @@ theme:
   font:
     text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
     code: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace
-    size: 20px
 
 nav:
   - Home:

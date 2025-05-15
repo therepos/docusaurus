@@ -35,6 +35,10 @@
     margin-inline-end: 0px;
 }
 
+.md-typeset p {
+    font-size: 0.75em;
+}
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -43,7 +47,7 @@
 .md-typeset h6 {
   color: black;
   display: block;
-  letter-spacing: 0.125em;
+  letter-spacing: 0.05em;
   unicode-bidi: isolate;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
