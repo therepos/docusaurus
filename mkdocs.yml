@@ -24,8 +24,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: false
-    code: JetBrains Mono
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home:
