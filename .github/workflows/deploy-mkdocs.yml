@@ -30,15 +30,15 @@ jobs:
             mkdocs-material \
             mkdocs-git-revision-date-localized-plugin
 
-      - name: Compute hash and rename extra.css
+      - name: Compute hash and rename styles.css
         run: |
-          FILE="docs/styles/extra.css"
+          FILE="docs/extra/styles.css"
           HASH=$(sha1sum "$FILE" | cut -c1-8)
-          HASHED="docs/styles/extra.$HASH.css"
+          HASHED="docs/extra/styles.$HASH.css"
           mv "$FILE" "$HASHED"
 
           # Replace in mkdocs.yml
-          sed -i "s|styles/extra.css|styles/extra.$HASH.css|g" mkdocs.yml
+          sed -i "s|extra/styles.css|extra/styles.$HASH.css|g" mkdocs.yml
 
       - name: Build the MkDocs site
         run: mkdocs build --strict
