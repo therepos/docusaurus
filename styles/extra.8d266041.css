@@ -13,8 +13,6 @@
     font-weight: 700;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .md-typeset h2 {
@@ -22,8 +20,6 @@
     font-weight: 600;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .md-typeset h3 {
@@ -31,16 +27,15 @@
     font-weight: bold;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .md-typeset p {
     font-size: 1em;
 }
 
-.md-typeset table {
-    font-size: 1.25em;
+.md-typeset table td,
+.md-typeset table th {
+  font-size: 1.25em;
 }
 
 .md-typeset h1,
@@ -52,7 +47,6 @@
   color: black;
   display: block;
   letter-spacing: 0.05em;
-  unicode-bidi: isolate;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
