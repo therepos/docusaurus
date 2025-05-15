@@ -32,7 +32,7 @@ nav:
       - Hotpot: index.md
       - Guide: guide.md
   - About:
-      - About: about.md
+      - Overview: about.md
       - Welcome: about.md
 
 plugins:
