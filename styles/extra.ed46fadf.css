@@ -48,4 +48,10 @@
   color: black;
   display: block;
   unicode-bidi: isolate;
+
+  /* Improve rendering across OS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
 }
