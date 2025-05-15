@@ -36,7 +36,11 @@
 }
 
 .md-typeset p {
-    font-size: 1.0em;
+    font-size: 1em;
+}
+
+.md-typeset table {
+  font-size: 1em; /* match body */
 }
 
 .md-typeset h1,
