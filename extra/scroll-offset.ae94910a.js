@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
   const HEADINGS = document.querySelectorAll("main h1, main h2, main h3");
-  const OFFSET = 100; // Adjust if your sticky header is larger/smaller
+  const OFFSET = 100; // Adjust based on your sticky header
 
   const observer = new IntersectionObserver(
     (entries) => {
-      for (const entry of entries) {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           history.replaceState(null, null, `#${entry.target.id}`);
         }
-      }
+      });
     },
     {
-      rootMargin: `-${OFFSET}px 0px 0px 0px`,
-      threshold: 1.0,
+      rootMargin: `-${OFFSET}px 0px -80% 0px`, // offset top and bottom
+      threshold: 0.1, // Trigger when at least 10% is visible
     }
   );
 
