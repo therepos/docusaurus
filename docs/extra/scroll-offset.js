@@ -20,3 +20,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if (h.id) observer.observe(h);
   });
 });
+
+customElements.define("h7", class extends HTMLElement {});
