@@ -24,8 +24,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
+    code: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace
 
 nav:
   - Home:
