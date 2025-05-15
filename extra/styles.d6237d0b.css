@@ -27,7 +27,7 @@
 
 /* Global body + content styling */
 body, .md-typeset {
-  font-size: 0.75em;
+  font-size: 0.9em;
   font-feature-settings: "kern", "liga";
   letter-spacing: 0.025em;
   -webkit-font-smoothing: antialiased;
