@@ -102,4 +102,6 @@ body, .md-typeset {
 .md-typeset h6 {
   color: var(--custom-heading-color);
   letter-spacing: 0.025em;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
 }
