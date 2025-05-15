@@ -26,8 +26,6 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
-    size: 16px
-    word-wrap: break-word;
 
 nav:
   - Home:
