@@ -4,11 +4,17 @@
   --md-accent-fg-color: #0052cc;
 }
 
+/* Global body + content styling */
 body, .md-typeset {
   font-size: 1em;
+  font-feature-settings: "kern", "liga";
   letter-spacing: 0.025em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
+/* Headings */
 .md-typeset h1 {
   font-size: 2em;
   font-weight: 700;
@@ -24,11 +30,7 @@ body, .md-typeset {
   font-weight: 500;
 }
 
-/* .md-typeset table td,
-.md-typeset table th {
-  font-size: 1.10em;
-} */
-
+/* Unified heading style */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -38,15 +40,20 @@ body, .md-typeset {
   color: black;
   display: block;
   letter-spacing: 0.025em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
 
+/* Optional: Table font size if needed */
+/*
+.md-typeset table td,
+.md-typeset table th {
+  font-size: 1.1em;
+}
+*/
+
+/* Override anchor icon */
 .md-typeset .headerlink::before {
-  content: "🔗"; 
+  content: "🔗";
   font-size: 0.5em;
   margin-left: 0.2em;
   color: #999;
 }
-
