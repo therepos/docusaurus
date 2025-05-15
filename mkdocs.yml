@@ -31,11 +31,13 @@ theme:
 
 nav:
   - Home:
-      - index.md
-      - Guide: guide.md
+      - social.md
+      - fitness.md
+      - interview.md
+      - cv.md
+      - videos.md
   - About:
-      - sec-about/index.md
-      - Welcome: welcome.md
+      - about/index.md
 
 plugins:
   - search
