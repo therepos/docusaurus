@@ -14,6 +14,51 @@ body, .md-typeset {
   text-rendering: optimizeLegibility;
 }
 
+/* ======================================== 
+   Navigation Bars
+=========================================*/ 
+
+/* Left and right nav: base link style */
+.md-nav__item .md-nav__link {
+  color: #666666;              /* Light gray like GitBook */
+  font-weight: 400;
+  font-size: 0.95em;
+  padding: 0.4em 1em;
+}
+
+/* Active link (blue and bolder) */
+.md-nav__item .md-nav__link--active {
+  color: #1a73e8;              /* GitBook-style blue */
+  font-weight: 600;
+}
+
+/* Hover effect: slightly darker */
+.md-nav__item .md-nav__link:hover {
+  color: #333333;
+}
+
+/* Right TOC nav (outline) specifically */
+.md-nav--secondary .md-nav__link {
+  color: #666666;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+/* Active/focused heading in right nav */
+.md-nav--secondary .md-nav__link--active {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+/* Hover effect for right nav */
+.md-nav--secondary .md-nav__link:hover {
+  color: #333333;
+}
+
+/* ======================================== 
+   Headings
+=========================================*/ 
+
 /* Headings */
 .md-typeset h1 {
   font-size: 2em;
