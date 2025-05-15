@@ -11,7 +11,7 @@
 body, .md-typeset {
   font-size: 0.9em;
   font-feature-settings: "kern", "liga";
-  letter-spacing: 0.025em;
+  letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -91,21 +91,12 @@ body, .md-typeset {
 .md-typeset h1 {
   font-size: 2em;
   font-weight: 300;
-  margin: 0 0 1.25em;
 }
 
 .md-typeset h2 {
-  font-size: 1.5em;
-  font-weight: 300;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-.md-typeset h3 {
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: 400;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 1.5em;
 }
 
 /* Unified heading style */
@@ -116,7 +107,7 @@ body, .md-typeset {
 .md-typeset h5,
 .md-typeset h6 {
   color: var(--custom-heading-color);
-  letter-spacing: 0.025em;
+  letter-spacing: 0.02em;
 }
 
 .md-typeset h1:target,
