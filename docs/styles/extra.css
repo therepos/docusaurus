@@ -8,21 +8,12 @@
   display: none;
 } */
 
-/* H1 */
-.md-typeset h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding-bottom: 0.3em;
+/* headings */
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3, 
+.md-typeset h4 {
+  color: #1f2328; /* GitHub's default text color */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* H2 */
-.md-typeset h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-/* H3 */
-.md-typeset h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
