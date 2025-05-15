@@ -12,6 +12,9 @@ body, .md-typeset {
   font-size: 0.9em;
   font-feature-settings: "kern", "liga";
   letter-spacing: 0.02em;
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
