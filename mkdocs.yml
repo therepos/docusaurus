@@ -8,7 +8,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.tabs
-    - navigation.tracking
+    # - navigation.tracking
     - navigation.path
     - content.code.annotate
     - toc.follow
