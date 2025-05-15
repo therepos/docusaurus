@@ -32,7 +32,8 @@ nav:
       - index.md
       - Guide: guide.md
   - About:
-      - Welcome: about.md
+      - sec-about/index.md
+      - Welcome: guide.md
 
 plugins:
   - search
