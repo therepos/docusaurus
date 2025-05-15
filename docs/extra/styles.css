@@ -37,7 +37,7 @@ body, .md-typeset {
 /* Right TOC active item style */
 .md-nav--secondary .md-nav__link--active {
   color: #1a73e8;              
-  /* font-weight: 600;             */
+  font-weight: 600;            
 }
 
 /* Optional: on hover */
@@ -48,13 +48,13 @@ body, .md-typeset {
 /* Right TOC nav (outline) specifically */
 .md-nav--secondary .md-nav__link {
   color: #c0c0c0;
-  /* font-weight: 400; */
+  font-weight: 400;
 }
 
 /* Active/focused heading in right nav */
 .md-nav--secondary .md-nav__link--active {
   color: #1a73e8;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
 
 /* Hover effect for right nav */
@@ -90,21 +90,21 @@ body, .md-typeset {
 /* Headings */
 .md-typeset h1 {
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .md-typeset h2 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .md-typeset h3 {
   font-size: 1.25em;
   font-weight: 500;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* Unified heading style */
