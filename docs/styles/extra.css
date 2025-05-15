@@ -9,8 +9,6 @@
 } */
 
 .md-typeset h1 {
-    color: black;
-    display: block;
     font-size: 2.25em;
     font-weight: 700;
     letter-spacing: 0.025em;
@@ -18,12 +16,9 @@
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
 .md-typeset h2 {
-    color: black;
-    display: block;
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 0.025em;
@@ -31,12 +26,9 @@
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
 .md-typeset h3 {
-    color: black;
-    display: block;
     font-size: 1.17em;
     font-weight: bold;
     letter-spacing: 0.025em;    
@@ -44,16 +36,16 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
-.md-typeset p {
-    color: black;
-    display: block;
-    letter-spacing: 0.025em;  
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: black;
+  display: block;
+  unicode-bidi: isolate;
 }
