@@ -44,5 +44,5 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# extra_css:
-#   - styles/extra.css
+extra_css:
+  - styles/extra.css
