@@ -94,9 +94,17 @@ body, .md-typeset {
 }
 
 .md-typeset h2 {
-  font-size: 1.3em;
-  font-weight: 400;
-  margin-top: 1.5em;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
 }
 
 /* Unified heading style */
