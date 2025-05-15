@@ -1,33 +1,15 @@
+/* ======================================== 
+   Body
+=========================================*/ 
+
 :root {
   --md-primary-fg-color: #ffffff;
   --md-primary-bg-color: #ffffff;
   --md-accent-fg-color: #0052cc;
 }
 
-/* Default: light mode (black headings) */
-[data-md-color-scheme="default"] {
-  --custom-heading-color: #000000;
-}
-
-/* Dark mode: white or light grey headings */
-[data-md-color-scheme="slate"] {
-  --custom-heading-color: #ffffff; /* or #e0e0e0 for softer contrast */
-}
-
-/* Right TOC active item style */
-.md-nav--secondary .md-nav__link--active {
-  color: #1a73e8;              /* Blue highlight (match left nav) */
-  font-weight: 600;            /* Optional: make it stand out */
-}
-
-/* Optional: on hover */
-.md-nav--secondary .md-nav__link:hover {
-  color: #1a73e8;
-}
-
-/* Global body + content styling */
 body, .md-typeset {
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-feature-settings: "kern", "liga";
   letter-spacing: 0.025em;
   -webkit-font-smoothing: antialiased;
@@ -36,24 +18,31 @@ body, .md-typeset {
 }
 
 /* ======================================== 
-   Navigation Bars
+   Theme
+=========================================*/ 
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --custom-heading-color: #000000;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --custom-heading-color: #ffffff;
+}
+
+/* ======================================== 
+   TOC
 =========================================*/ 
 
-/* Left and right nav: base link style */
-.md-nav__item .md-nav__link {
-  color: #c0c0c0;              /* Light gray like GitBook */
-  font-weight: 400;
+/* Right TOC active item style */
+.md-nav--secondary .md-nav__link--active {
+  color: #1a73e8;              
+  font-weight: 600;            
 }
 
-/* Active link (blue and bolder) */
-.md-nav__item .md-nav__link--active {
-  color: #1a73e8;              /* GitBook-style blue */
-  font-weight: 600;
-}
-
-/* Hover effect: slightly darker */
-.md-nav__item .md-nav__link:hover {
-  color: #333333;
+/* Optional: on hover */
+.md-nav--secondary .md-nav__link:hover {
+  color: #1a73e8;
 }
 
 /* Right TOC nav (outline) specifically */
@@ -70,6 +59,27 @@ body, .md-typeset {
 
 /* Hover effect for right nav */
 .md-nav--secondary .md-nav__link:hover {
+  color: #333333;
+}
+
+/* ======================================== 
+   Navigation Bar
+=========================================*/ 
+
+/* Left and right nav: base link style */
+.md-nav__item .md-nav__link {
+  color: #c0c0c0;              /* Light gray like GitBook */
+  font-weight: 400;
+}
+
+/* Active link (blue and bolder) */
+.md-nav__item .md-nav__link--active {
+  color: #1a73e8;              /* GitBook-style blue */
+  font-weight: 600;
+}
+
+/* Hover effect: slightly darker */
+.md-nav__item .md-nav__link:hover {
   color: #333333;
 }
 
