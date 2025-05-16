@@ -1,6 +1,6 @@
 # Interview 
 
-### Questions
+## Questions
 - How would you describe the team culture and structure?
 - Is there anything about my background that gives you pause?
 - What will be the one thing that need attention in the first 30 days

@@ -1,6 +1,6 @@
 # CV 
 
-### Skills
+## Skills
 -   Identify potential material non-compliance with the accounting standards and other laws . 
 -   Enquire with company directors on the accounting treatments of major transactions and balances .
 -   Identify major valuation issues and form a view on whether there is material non-compliance.
@@ -12,7 +12,7 @@
 -   ISQM 1/SSQM 1.
     
 
-### Experience
+## Experience
 -   Managed department annual budget of X amount. 
 -   Built a new division for the company.
 -   Redesigned and implemented more effective company procedures which decreased X.
@@ -28,7 +28,7 @@
 -   Launched X new websites/products/campaigns.
     
 
-### Gap
+## Gap
 -   Took the opportunity to upgrade myself and learn new things.
 -   Attended X meetings to understand about their platforms.
 -   Attended training course on X.
@@ -39,7 +39,7 @@
 -   Enriching and fulfilling learning experience.
     
 
-### Change
+## Change
 -   Left voluntarily to reassess my direction.
 -   Professionally stagnant.
 -   Broaden my skills \[course, certification, freelance, or personal project\]. 
@@ -49,7 +49,7 @@
 -   Fresh team, culture, or focus area that better fits my growth path.
     
 
-### Projects
+## Projects
 -   More hands-on data use: dashboards, controls testing, risk modeling.
 -   Quantify impact (e.g., reduced hours, improved accuracy, flagged anomalies).
 -   Keep adding to portfolio (GitHub, blog, or simple reports).
@@ -58,7 +58,7 @@
 -   Maybe freelance or short gig in analytics if needed to get foot in door.
     
 
-### Others
+## Others
 -   Business dynamics, identify risks, and offer recommendations.
 -   Improve audit quality and processes.
 -   Self-sufficient and work more efficiently.

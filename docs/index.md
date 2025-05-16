@@ -1,6 +1,6 @@
 # Social
 
-### Interests
+## Interests
 - Lust – Entertainment, games, concert, travels, streams, escapism.
 - Beauty – Skincare, makeup, fitness.
 - Health – Pharma, wellness, caregiving.
@@ -11,7 +11,7 @@
 - Convenience – Fast food, delivery services, AI tools.
 - Spirituality – Religion, manifestation courses, funeral services.
 
-### Chats
+## Chats
 - Ease – Dumb stuff, environment, food.
 - Dynamics – Astrology, romance, people, shows.
 - Vibes – Events, music, her life.
