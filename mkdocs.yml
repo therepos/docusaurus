@@ -9,6 +9,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tracking
+    - navigation.instant
     - navigation.path
     - content.code.annotate
     - toc.follow
@@ -28,16 +29,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
-nav:
-  - Home:
-      - Social: index.md
-      - fitness.md
-      - interview.md
-      - cv.md
-      - videos.md
-  - About:
-      - about/index.md
 
 plugins:
   - search

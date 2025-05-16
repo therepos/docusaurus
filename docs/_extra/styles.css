@@ -20,6 +20,11 @@ body, .md-typeset {
   text-rendering: optimizeLegibility;
 }
 
+html {
+  scroll-padding-top: 100px;
+}
+
+
 /* ======================================== 
    Theme
 =========================================*/ 
