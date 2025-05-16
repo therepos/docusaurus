@@ -19,6 +19,10 @@ body, .md-typeset {
   text-rendering: optimizeLegibility;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ======================================== 
    Theme
 =========================================*/ 
@@ -99,7 +103,7 @@ body, .md-typeset {
 .md-typeset h4:target,
 .md-typeset h5:target,
 .md-typeset h6:target {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 40px;
 }
 
 
