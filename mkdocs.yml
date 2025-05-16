@@ -10,6 +10,7 @@ theme:
     - navigation.path
     - navigation.instant
     - navigation.tracking
+    - navigation.top
     - content.code.annotate
     - toc.follow
   palette:
