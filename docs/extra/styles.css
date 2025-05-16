@@ -101,14 +101,14 @@ html {
 }
 
 /* Ensure fixed header doesn't overlap anchor targets */
-.md-typeset h1:target,
+/* .md-typeset h1:target,
 .md-typeset h2:target,
 .md-typeset h3:target,
 .md-typeset h4:target,
 .md-typeset h5:target,
 .md-typeset h6:target {
   scroll-margin-top: 1em;
-}
+} */
 
 
 /* ======================================== 
