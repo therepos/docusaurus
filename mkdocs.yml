@@ -8,6 +8,7 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.path
+    - navigation.tracking
     - content.code.annotate
     - toc.follow
   palette:
