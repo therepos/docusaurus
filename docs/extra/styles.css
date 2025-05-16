@@ -41,33 +41,6 @@ html {
    TOC
 =========================================*/ 
 
-/* Right TOC active item style */
-.md-nav--secondary .md-nav__link--active {
-  color: #1a73e8;              
-  font-weight: 600;            
-}
-
-/* Optional: on hover */
-.md-nav--secondary .md-nav__link:hover {
-  color: #1a73e8;
-}
-
-/* Right TOC nav (outline) specifically */
-.md-nav--secondary .md-nav__link {
-  color: #c0c0c0;
-  font-weight: 400;
-}
-
-/* Active/focused heading in right nav */
-.md-nav--secondary .md-nav__link--active {
-  color: #1a73e8;
-  font-weight: 600;
-}
-
-/* Hover effect for right nav */
-.md-nav--secondary .md-nav__link:hover {
-  color: #333333;
-} 
 
 /* ======================================== 
    Navigation Bar
