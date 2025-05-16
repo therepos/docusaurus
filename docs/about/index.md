@@ -1,7 +1,6 @@
 # About
 
 ## Cooking Times
-
 <h7>Vermicelli</h7> : 30–60s. Translucent, slippery, springy.<br>
 <h7>Fish</h7> : 45–90s. Opaque, flakes easily.<br>
 <h7>Romaine heart</h7> : 30–60s. Wilted but crisp-tender.<br>

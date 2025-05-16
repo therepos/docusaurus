@@ -11,7 +11,6 @@
 -   Embrace digital solutions to monitor compliance with accounting standards, identify potential non-compliance, analyse common non-compliances and streamline work processes.
 -   ISQM 1/SSQM 1.
     
-
 ## Experience
 -   Managed department annual budget of X amount. 
 -   Built a new division for the company.
@@ -26,7 +25,6 @@
 -   Grew customer base by X amount.
 -   Cut costs by X amount within Y amount of time.
 -   Launched X new websites/products/campaigns.
-    
 
 ## Gap
 -   Took the opportunity to upgrade myself and learn new things.
@@ -37,7 +35,6 @@
 -   _Researched on payment encryption._
 -   Stayed up to date on the latest IFRS and taxation regulations.
 -   Enriching and fulfilling learning experience.
-    
 
 ## Change
 -   Left voluntarily to reassess my direction.
@@ -47,7 +44,6 @@
 -   Networking. 
 -   Industry developments.
 -   Fresh team, culture, or focus area that better fits my growth path.
-    
 
 ## Projects
 -   More hands-on data use: dashboards, controls testing, risk modeling.
@@ -57,7 +53,6 @@
 -   Strong narrative: “Finance pro who speaks both audit and data”.
 -   Maybe freelance or short gig in analytics if needed to get foot in door.
     
-
 ## Others
 -   Business dynamics, identify risks, and offer recommendations.
 -   Improve audit quality and processes.
