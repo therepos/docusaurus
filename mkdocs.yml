@@ -11,7 +11,6 @@ theme:
     - navigation.tracking
     - navigation.top
     - content.code.annotate
-    - toc.follow
   palette:
     - scheme: default
       primary: white
