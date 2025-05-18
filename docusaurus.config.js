@@ -17,35 +17,30 @@ presets: [
         path: 'docs',
         routeBasePath: '/',
         sidebarPath: require.resolve('./sidebars.js'),
+        sidebarCollapsible: true,
+        showLastUpdateTime: true,
       },
       blog: false,
       theme: {
-        customCss: require.resolve('./src/css/styles.css')
+        customCss: require.resolve('./src/css/styles.css'),
       },
     },
   ],
 ],
 
-  themeConfig: {
-    navbar: {
-      title: 'My Docusaurus Site',
-      items: [
-        {
-          href: 'https://github.com/therepos/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    docs: {
-      sidebar: {
-        hideable: true,
-        autoCollapseCategories: true,
+themeConfig: {
+  navbar: {
+    title: 'My Docusaurus Site',
+    items: [
+      {
+        href: 'https://github.com/therepos/docusaurus',
+        label: 'GitHub',
+        position: 'right',
       },
-    }, 
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
-    },
+    ],
   },
-};
+  footer: {
+    style: 'dark',
+    copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
+  },
+},
