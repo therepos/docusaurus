@@ -1,0 +1,5 @@
+"scripts": {
+  "build": "docusaurus build",
+  "deploy": "docusaurus deploy",
+  "start": "docusaurus start"
+}

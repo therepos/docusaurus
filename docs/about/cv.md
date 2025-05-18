@@ -1,3 +1,9 @@
+---
+id: install
+title: Installing Docusaurus
+sidebar_position: 1
+---
+
 # CV 
 
 ## Skills
