@@ -1,84 +1,45 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const config = {
-  title: 'My Docs Site', // Change this to your site title
-  tagline: 'Documentation powered by Docusaurus',
+module.exports = {
+  title: 'My Docusaurus Site',
+  tagline: 'Docs made simple',
   url: 'https://therepos.github.io',
   baseUrl: '/docusaurus/',
   organizationName: 'therepos',
   projectName: 'docusaurus',
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           path: 'docs',
-          routeBasePath: '/', // Serve docs at root URL
+          routeBasePath: '/', // Serve docs at site root
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/therepos/docusaurus/edit/main/',
         },
-        blog: false, // Disable blog
+        blog: false,
         theme: {
-          customCss: require.resolve('./docs/extra/styles.css'),
+          customCss: [],
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'My Docs Site',
-        logo: {
-          alt: 'Site Logo',
-          src: 'img/logo.svg', // Optional: add a logo to static/img
+  themeConfig: {
+    navbar: {
+      title: 'My Docusaurus Site',
+      items: [
+        {
+          href: 'https://github.com/therepos/docusaurus',
+          label: 'GitHub',
+          position: 'right',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'about/index',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            href: 'https://github.com/therepos/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'About',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/therepos/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
-      },
-    }),
+      ],
+    },
+    footer: {
+      style: 'dark',
+      copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
+    },
+  },
 };
-
-module.exports = config;
