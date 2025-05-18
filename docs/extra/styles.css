@@ -58,6 +58,12 @@ html {
   color: #333333;
 }
 
+/* Your own fragment-based active TOC highlight */
+.md-nav__item .md-nav__link.fragment-active {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
 /* ======================================== 
    Headings
 =========================================*/ 

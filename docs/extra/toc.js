@@ -1,22 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const hash = window.location.hash;
+  const tocLinks = document.querySelectorAll(".md-nav__item .md-nav__link");
 
-  if (hash) {
-    const tocLinks = document.querySelectorAll(".md-nav__item .md-nav__link");
+  function setActiveLinkFromFragment() {
+    const fragment = decodeURIComponent(window.location.hash);
+    if (!fragment) return;
+
     tocLinks.forEach(link => {
-      link.classList.remove("md-nav__link--active");
-      if (link.getAttribute("href") === hash) {
-        link.classList.add("md-nav__link--active");
+      link.classList.remove("fragment-active");
+
+      if (link.getAttribute("href") === fragment) {
+        link.classList.add("fragment-active");
       }
     });
   }
 
-  // Optional: re-enable scroll-based activation after scroll
-  let userScrolled = false;
-  window.addEventListener("scroll", () => {
-    if (!userScrolled) {
-      userScrolled = true;
-      // Optionally, re-enable default scroll detection or just leave it alone
-    }
-  });
+  setActiveLinkFromFragment();
+  window.addEventListener("hashchange", setActiveLinkFromFragment);
 });
