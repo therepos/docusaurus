@@ -9,22 +9,22 @@ module.exports = {
   favicon: 'img/favicon.ico',
   trailingSlash: false,
 
-  presets: [
-    [
-      'classic',
-      {
-        docs: {
-          path: 'docs',
-          routeBasePath: '/', // Serve docs at site root
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: false,
-        theme: {
-          customCss: [],
-        },
+presets: [
+  [
+    'classic',
+    {
+      docs: {
+        path: 'docs',
+        routeBasePath: '/',
+        sidebarPath: require.resolve('./sidebars.js'),
       },
-    ],
+      blog: false,
+      theme: {
+        // Removed: customCss
+      },
+    },
   ],
+],
 
   themeConfig: {
     navbar: {
