@@ -41,6 +41,9 @@ markdown_extensions:
 extra_css:
   - extra/styles.css
 
+extra_javascript:
+  - extra/toc.js
+
 extra:
   translation:
     banner: false
