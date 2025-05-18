@@ -37,6 +37,20 @@ presets: [
         },
       ],
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+      // showLastUpdateAuthor: false,
+      // showLastUpdateTime: false,
+      // editUrl: undefined,
+    },
+    // Disable pagination
+    pagination: {
+      previous: false,
+      next: false,
+    },    
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} therepos.`,
