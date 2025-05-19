@@ -11,7 +11,7 @@ export default function Home() {
       <main style={{ padding: '2rem', textAlign: 'center' }}>
         <h1>Welcome to My Docs Site</h1>
         <p>This page is built using Docusaurus.</p>
-        <Link to="/About/Docusaurus.md">
+        <Link to="/About/Docusaurus">
           <button>Get Started</button>
         </Link>        
       </main>
