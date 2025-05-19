@@ -13,12 +13,12 @@ To get started:
 
 ## Local 
 1\. To deploy it locally::  
-```
+```bash
 git clone https://github.com/therepos/docusaurus.git
 ```
 
 2\. Install npm packages:
-```
+```bash
 cd docusaurus
 npm install
 npm run start
