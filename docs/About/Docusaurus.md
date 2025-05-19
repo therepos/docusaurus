@@ -45,6 +45,8 @@ git push
 5\. (Optional) Preview site locally only:
 ```bash
 npm run serve
+```
+
 ---
 
 ## References
