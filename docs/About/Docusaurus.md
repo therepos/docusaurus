@@ -1,3 +1,28 @@
 # Docusaurus
 
-Document in markdown format are automatically added to the sidebar item based on title using heading (#).
+This is a template to get a basic Docusaurus site up and running in no time.  
+By default, the template is designed to deploy via GitHub Action on GitHub Pages.
+
+## GitHub Pages
+To get started:
+1\. Click the `Use this template` button (top-right).  
+2\. Choose `Create a new repository`.  
+3\. Enable GitHub Pages from `Settings` > `Pages` > `Deploy from Branch` > `gh-pages`  
+4\. Run GitHub workflow by editing any of the Markdown file.  
+5\. Access the site at your designated repo page, for example: https://therepos.github.io/docusaurus/
+
+## Local 
+1\. To deploy it locally::  
+```
+git clone https://github.com/therepos/docusaurus.git
+```
+
+2\. Install npm packages:
+```
+cd docusaurus
+npm install
+npm run start
+```
+
+## References
+[Official Docusaurus Guide](https://docusaurus.io/docs)
