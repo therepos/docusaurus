@@ -6,7 +6,8 @@ By default, it deploys via GitHub Actions to GitHub Pages.
 ---
 
 ## GitHub Pages
-To get started:  
+To get started:
+
 1\. Click the `Use this template` button (top-right).  
 2\. Choose `Create a new repository`.  
 3\. Enable GitHub Pages from `Settings` > `Pages` > `Deploy from Branch` > `gh-pages`  
