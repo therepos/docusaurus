@@ -24,5 +24,22 @@ npm install
 npm run start
 ```
 
+3\. Deploy locally:
+```bash
+npm run build
+```
+
+4\. Push to GitHub repo:
+```bash
+git add . 
+git commit -m "Updates"
+git push
+```
+
+5\. (Optional) Preview site locally only:
+```bash
+npm run serve
+```
+
 ## References
 [Official Docusaurus Guide](https://docusaurus.io/docs)
