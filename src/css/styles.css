@@ -1,3 +1,138 @@
+/* ========================================
+   Layout
+======================================== */
+
 .pagination-nav {
-    display: none;
+  display: none;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* ========================================
+   Sidebar
+======================================== */
+
+.menu__link {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+/* ========================================
+   Global Typography
+======================================== */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+body,
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown p,
+.markdown li,
+.table-of-contents li,
+.table-of-contents a,
+.menu__link {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ========================================
+   Markdown Content
+======================================== */
+
+.theme-doc-markdown p {
+  text-align: justify;
+}
+
+.theme-doc-markdown {
+  padding: 0 1.5rem;
+}
+
+.theme-last-updated {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  color: #666; /* optional: softer tone */
+}
+
+.markdown h1 {
+  font-size: 40px;
+  line-height: 35px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.markdown h3 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.markdown p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.markdown li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.table-of-contents li,
+.table-of-contents a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+/* Blog post */
+.theme-blog-post-page .markdown h1,
+.theme-blog-post-page .markdown h2,
+.theme-blog-post-page .markdown p,
+.theme-blog-list-page .markdown h1,
+.theme-blog-list-page .markdown h2,
+.theme-blog-list-page .markdown p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ========================================
+   Custom Inline Heading (h7)
+======================================== */
+
+h7 {
+  color: #1a73e8;
+  font-size: inherit;
+  font-weight: normal;
+  display: inline;
+  margin: 0;
 }
