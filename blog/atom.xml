@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://therepos.github.io/docusaurus/blog</id>
+    <title>Docusaurus Blog</title>
+    <updated>2025-05-24T21:02:49.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://therepos.github.io/docusaurus/blog"/>
+    <subtitle>Docusaurus Blog</subtitle>
+    <icon>https://therepos.github.io/docusaurus/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Blog]]></title>
+        <id>https://therepos.github.io/docusaurus/blog/welcome</id>
+        <link href="https://therepos.github.io/docusaurus/blog/welcome"/>
+        <updated>2025-05-24T21:02:49.000Z</updated>
+    </entry>
+</feed>
