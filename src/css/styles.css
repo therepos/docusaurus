@@ -12,6 +12,52 @@
 }
 
 /* ========================================
+   Landing Page Overrides (match JSX)
+======================================== */
+
+.landing-main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.landing-card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.landing-card {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+  text-align: left;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #f9f9f9;
+}
+
+.landing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.landing-card h2 {
+  margin: 0 0 0.5rem;
+}
+
+.landing-card p {
+  margin: 0;
+  color: #555;
+}
+
+/* ========================================
    Sidebar
 ======================================== */
 
@@ -114,15 +160,9 @@ body,
 }
 
 /* Blog post */
-.theme-blog-post-page .markdown h1,
-.theme-blog-post-page .markdown h2,
-.theme-blog-post-page .markdown p,
-.theme-blog-list-page .markdown h1,
-.theme-blog-list-page .markdown h2,
-.theme-blog-list-page .markdown p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
+.theme-blog-post-page .markdown,
+.theme-blog-list-page .markdown {
+  font-family: 'Inter', sans-serif !important;
 }
 
 /* ========================================

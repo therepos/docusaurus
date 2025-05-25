@@ -4,16 +4,15 @@ import Link from '@docusaurus/Link';
 
 export default function Home() {
   return (
-    <Layout
-      title="Welcome"
-      description="This is a sample Docusaurus homepage"
-    >
-      <main style={{ padding: '2rem', textAlign: 'center' }}>
-        <h1>Welcome to My Docs Site</h1>
-        <p>This page is built using Docusaurus.</p>
-        <Link to="/about">
-          <button>Get Started</button>
-        </Link>        
+    <Layout title="Welcome" description="Landing Page">
+      <main className="landing-main">
+        <h1 className="landing-title">Docusaurus Template</h1>
+        <div className="landing-card-grid">
+          <Link className="landing-card" to="/about">
+            <h2>About</h2>
+            <p>Description goes here.</p>
+          </Link>
+        </div>
       </main>
     </Layout>
   );
