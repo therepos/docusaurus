@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_site=self.webpackChunkdocusaurus_site||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Blog","permalink":"/docusaurus/blog/welcome","unlisted":false,"date":"2025-05-24T21:02:49.000Z"}]}')}}]);
