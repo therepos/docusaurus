@@ -43,7 +43,7 @@ export default {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
           position: 'left',
-          label: 'about',
+          label: 'About',
         },
         {
           type: 'search',
