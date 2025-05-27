@@ -62,13 +62,15 @@
 ======================================== */
 
 .menu__link {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 500;
+  white-space: normal !important;
+  word-break: break-word;
 }
 
 /* ========================================
-   Global Typography
+   Typography
 ======================================== */
 
 @font-face {
@@ -98,7 +100,7 @@ body,
 }
 
 /* ========================================
-   Markdown Content
+   Theme
 ======================================== */
 
 .theme-doc-markdown p {
@@ -114,8 +116,16 @@ body,
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
-  color: #666; /* optional: softer tone */
+  color: #666;
 }
+
+.theme-edit-this-page {
+  margin-left: 1.5rem;
+}
+
+/* ========================================
+   Markdown
+======================================== */
 
 .markdown h1 {
   font-size: 40px;
@@ -151,6 +161,10 @@ body,
   font-weight: 400;
 }
 
+/* ========================================
+   Table of Contents
+======================================== */
+
 .table-of-contents li,
 .table-of-contents a {
   font-family: 'Inter', sans-serif;
@@ -159,10 +173,50 @@ body,
   font-weight: 400;
 }
 
-/* Blog post */
-.theme-blog-post-page .markdown,
-.theme-blog-list-page .markdown {
+/* ========================================
+   Blog Pages
+======================================== */
+
+h2.title_f1Hy {
   font-family: 'Inter', sans-serif !important;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2.title_f1Hy a {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+h3.title_f1Hy {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+[class^="yearGroupHeading"] {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.theme-doc-breadcrumbs {
+  padding-left: var(--ifm-spacing-horizontal);
+  padding-right: var(--ifm-spacing-horizontal);
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+}
+
+/* Layout */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
+  /* padding-left: 1rem !important;
+  padding-right: 1rem !important; */
 }
 
 /* ========================================
