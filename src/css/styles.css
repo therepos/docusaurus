@@ -1,3 +1,7 @@
+:root {
+  --my-left-padding: 1rem;
+}
+
 /* ========================================
    Layout
 ======================================== */
@@ -82,10 +86,6 @@ html.blog-wrapper .container {
 /* ========================================
    Theme
 ======================================== */
-
-:root {
-  --my-left-padding: 1rem;
-}
 
 .theme-doc-markdown {
   padding-left: var(--my-left-padding);
