@@ -19,7 +19,7 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/notes/edit/main/',
+          editUrl: 'https://github.com/therepos/docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
