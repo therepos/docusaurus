@@ -253,13 +253,23 @@ h3.title_f1Hy {
 }
 
 /* ========================================
-   Custom Inline Heading (h7)
+   Custom Highlights
 ======================================== */
 
-h7 {
+mark {
   color: #1a73e8;
   font-size: inherit;
   font-weight: normal;
   display: inline;
   margin: 0;
 }
+
+/* mark {
+  background-color: var(--ifm-breadcrumb-item-background-active); 
+  color: var(--ifm-color-primary);                     
+  border-radius: var(--ifm-badge-border-radius);       
+  padding: 0.2em 0.5em;
+  font-weight: 500;
+  font-size: 90%;
+  white-space: nowrap;
+} */

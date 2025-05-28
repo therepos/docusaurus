@@ -14,31 +14,31 @@ To get started, go to the [repository](https://github.com/therepos/template-docu
 
 ## Local 
 1\. To deploy it locally::  
-```
+```git
 git clone https://github.com/therepos/docusaurus.git
 ```
 
 2\. Install npm packages:
-```
+```git
 cd docusaurus
 npm install
 npm run start
 ```
 
 3\. Deploy locally:
-```bash
+```git
 npm run build
 ```
 
 4\. Push to GitHub repo:
-```bash
+```git
 git add . 
 git commit -m "Updates"
 git push
 ```
 
 5\. (Optional) Preview site locally only:
-```bash
+```git
 npm run serve
 ```
 

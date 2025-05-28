@@ -62,5 +62,8 @@ export default {
         },
       ],
     },
+    prism: {
+      theme: prismThemes.github,
+    },
   },
 };
