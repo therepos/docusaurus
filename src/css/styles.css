@@ -87,13 +87,13 @@ html.blog-wrapper .container {
   --my-left-padding: 1rem;
 }
 
-.theme-doc-markdown p {
-  text-align: justify;
-}
-
 .theme-doc-markdown {
   padding-left: var(--my-left-padding);
   padding-right: 0.5rem;
+}
+
+.theme-doc-markdown p {
+  text-align: justify;
 }
 
 .theme-doc-breadcrumbs {
