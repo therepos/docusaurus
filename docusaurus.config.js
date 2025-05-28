@@ -1,3 +1,5 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+
 export default {
   title: 'Docusaurus',
   tagline: 'Docusaurus Tagline',
