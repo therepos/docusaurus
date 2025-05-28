@@ -42,7 +42,7 @@ export default {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'aboutidebar',
+          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'About',
         },
