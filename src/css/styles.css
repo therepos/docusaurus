@@ -93,7 +93,7 @@ html.blog-wrapper .container {
 }
 
 .theme-doc-breadcrumbs {
-  padding-left: var(--ifm-spacing-horizontal);
+  padding-left: 1rem;
   padding-right: var(--ifm-spacing-horizontal);
 }
 
