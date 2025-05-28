@@ -8,8 +8,8 @@ To get started:
 2. Choose **Create a new repository**.  
 3. Enable GitHub Pages:  
 - Trigger the GitHub Actions workflow by editing any Markdown file.  
-- **Settings** > **Pages** > **Deploy from Branch** > **gh-pages**  
-- **Settings** > **Actions** > **General** > **Workflow permission** > **Read and write permissions**   
+- <em>Settings</em> > **Pages** > **Deploy from Branch** > **gh-pages**  
+- **Settings** > **Actions** > **General** > **Workflow permission** > **Read and write permissions**   .
 4. Visit your published site e.g. https://therepos.github.io/template-docusaurus/
 
 ## Local 
