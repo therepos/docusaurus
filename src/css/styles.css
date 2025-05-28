@@ -87,8 +87,9 @@ html.blog-wrapper .container {
   text-align: justify;
 }
 
+/* top right bottom left */
 .theme-doc-markdown {
-  padding: 0 1rem 0 0;
+  padding: 0 0.5rem 0 1rem;
 }
 
 .theme-doc-breadcrumbs {
