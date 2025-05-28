@@ -1,6 +1,6 @@
 # Docusaurus
 
-This is a template to get a basic Docusaurus site up and running quickly. By default, it deploys via GitHub Actions to GitHub Pages.
+This is a template to deploy a basic Docusaurus site on GitHub Pages.
 
 ## GitHub Pages
 To get started:
