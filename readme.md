@@ -44,4 +44,4 @@ npm run serve
 ```
 
 ## References
-[Official Docusaurus Guide](https://docusaurus.io/docs)
+- [Official Docusaurus Guide](https://docusaurus.io/docs)
