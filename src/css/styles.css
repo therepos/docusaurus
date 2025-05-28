@@ -1,7 +1,3 @@
-:root {
-  --my-left-padding: 1rem;
-}
-
 /* ========================================
    Layout
 ======================================== */
@@ -88,7 +84,7 @@ html.blog-wrapper .container {
 ======================================== */
 
 .theme-doc-markdown {
-  padding-left: var(--my-left-padding);
+  padding-left: 1.5rem;
   padding-right: 0.5rem;
 }
 
@@ -97,7 +93,7 @@ html.blog-wrapper .container {
 }
 
 .theme-doc-breadcrumbs {
-  padding-left: var(--my-left-padding);
+  padding-left: 1.5rem;
   padding-right: var(--ifm-spacing-horizontal);
 }
 
