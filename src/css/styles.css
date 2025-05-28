@@ -83,17 +83,21 @@ html.blog-wrapper .container {
    Theme
 ======================================== */
 
+:root {
+  --my-left-padding: 1rem;
+}
+
 .theme-doc-markdown p {
   text-align: justify;
 }
 
-/* top right bottom left */
 .theme-doc-markdown {
-  padding: 0 0.5rem 0 1rem;
+  padding-left: var(--my-left-padding);
+  padding-right: 0.5rem;
 }
 
 .theme-doc-breadcrumbs {
-  padding-left: 1rem;
+  padding-left: var(--my-left-padding);
   padding-right: var(--ifm-spacing-horizontal);
 }
 
