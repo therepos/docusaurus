@@ -10,7 +10,7 @@ To get started:
 - Trigger the GitHub Actions workflow by editing any Markdown file.  
 - **Settings** > **Pages** > **Deploy from Branch** > **gh-pages**  
 - **Settings** > **Actions** > **General** > **Workflow permission** > **Read and write permissions**   
-4. Visit your published site e.g. https://therepos.github.io/docusaurus/
+4. Visit your published site e.g. https://therepos.github.io/template-docusaurus/
 
 ## Local 
 1\. To deploy it locally::  
