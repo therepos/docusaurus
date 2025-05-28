@@ -2,7 +2,7 @@ export default {
   title: 'Docusaurus',
   tagline: 'Docusaurus Tagline',
   url: 'https://therepos.github.io',
-  baseUrl: '/docusaurus/',
+  baseUrl: '/template-docusaurus/',
   organizationName: 'therepos',
   projectName: 'docusaurus',
   deploymentBranch: 'gh-pages',
@@ -19,7 +19,7 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/docusaurus/edit/main/',
+          editUrl: 'https://github.com/therepos/template-docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +51,7 @@ export default {
           position: 'right',
         },
         {
-          href: 'https://github.com/therepos/docusaurus',
+          href: 'https://github.com/therepos/template-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
