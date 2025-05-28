@@ -1,5 +1,4 @@
 # Docusaurus
-
 This is a template to deploy a basic Docusaurus site on GitHub Pages.
 
 ## GitHub Pages
@@ -11,7 +10,7 @@ To get started, go to the [repository](https://github.com/therepos/template-docu
 - Trigger the GitHub Actions workflow by editing any Markdown file.  
 - **Settings** > **Pages** > **Deploy from Branch** > **gh-pages**  
 - **Settings** > **Actions** > **General** > **Workflow permission** > **Read and write permissions**   
-4. Visit your published site e.g. https://therepos.github.io/template-docusaurus/
+4. Visit your published site e.g. https://therepos.github.io/docusaurus/
 
 ## Local 
 1\. To deploy it locally::  
@@ -44,4 +43,4 @@ npm run serve
 ```
 
 ## References
-[Official Docusaurus Guide](https://docusaurus.io/docs)
+- [Official Docusaurus Guide](https://docusaurus.io/docs)
