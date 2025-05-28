@@ -1,5 +1,4 @@
 # Docusaurus
-
 This is a template to deploy a basic Docusaurus site on GitHub Pages.
 
 ## GitHub Pages
