@@ -19,14 +19,15 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: 'https://github.com/therepos/docusaurus',
+          editUrl: 'https://github.com/therepos/notes/edit/main/',
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'Blog',
-          blogDescription: 'Blog description',
+          blogDescription: 'Thoughts and updates.',
           routeBasePath: 'blog',
-          editUrl: 'https://github.com/therepos/docusaurus',
+          blogSidebarTitle: 'Events',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/styles.css',
@@ -41,7 +42,7 @@ export default {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
+          sidebarId: 'docSidebar',
           position: 'left',
           label: 'About',
         },
@@ -61,6 +62,16 @@ export default {
         },
       ],
     },
-  },
 
+    // Material Icons
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined',
+        },
+      },
+    ],
+  },
 };
