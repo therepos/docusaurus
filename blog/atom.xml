@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://therepos.github.io/docusaurus/blog</id>
+    <id>https://therepos.github.io/template-docusaurus/blog</id>
     <title>Docusaurus Blog</title>
     <updated>2025-05-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://therepos.github.io/docusaurus/blog"/>
+    <link rel="alternate" href="https://therepos.github.io/template-docusaurus/blog"/>
     <subtitle>Docusaurus Blog</subtitle>
-    <icon>https://therepos.github.io/docusaurus/img/favicon.ico</icon>
+    <icon>https://therepos.github.io/template-docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Docusaurus Blog Template]]></title>
-        <id>https://therepos.github.io/docusaurus/blog/blog-template</id>
-        <link href="https://therepos.github.io/docusaurus/blog/blog-template"/>
+        <id>https://therepos.github.io/template-docusaurus/blog/blog-template</id>
+        <link href="https://therepos.github.io/template-docusaurus/blog/blog-template"/>
         <updated>2025-05-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Description goes here.]]></summary>
         <content type="html"><![CDATA[<p>This blog is created with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 3</strong></a>.</p>
