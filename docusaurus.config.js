@@ -75,7 +75,7 @@ export default {
         width: 160,
         height: 51,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos. Made with Docusaurus.`,
     },
   },
 };
