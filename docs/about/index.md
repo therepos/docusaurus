@@ -4,7 +4,7 @@ This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) do
 ## Deployment
 
 ### GitHub Pages
-To get started, go to the [repository](https://github.com/therepos/template-docusaurus) and follow the steps below:
+To get started, go to the [repository](https://github.com/therepos/docusaurus) and follow the steps below:
 
 1. Click the **Use this template** button (top-right).  
 
@@ -20,17 +20,17 @@ To get started, go to the [repository](https://github.com/therepos/template-docu
 
 5. Commit any file changes to publish the updates.  
 
-6. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
+6. Visit your published site e.g. https://therepos.github.io/docusaurus/  
 
 ### (Alternative) Local Deployment
 1\.&nbsp;&nbsp; To deploy it locally::  
 ```
-git clone https://github.com/therepos/template-docusaurus.git
+git clone https://github.com/therepos/docusaurus.git
 ```
 
 2\.&nbsp;&nbsp; Install npm packages:
 ```
-cd template-docusaurus
+cd docusaurus
 npm install
 npm run start
 ```
@@ -65,7 +65,7 @@ To understand more about how to use or customise the site, please refer to the o
 ### Structure
 
 ```
-template-docusaurus
+docusaurus
 ├── .github/
 ├── blog/  
 ├── └── yyyy-mm-dd-post.md      # your blog post            
@@ -81,4 +81,5 @@ template-docusaurus
 ```
 
 ## License
-This project is licensed under MIT. If you find this template useful, please attribute a link to this repository.
+This work is licensed under [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#).   
+If you find this template useful, please attribute a link to this repository.
