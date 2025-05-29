@@ -264,12 +264,3 @@ mark {
   display: inline;
   margin: 0;
 }
-
-kbd {
-  /* background-color: var(--ifm-breadcrumb-item-background-active); 
-  color: inherit;                     
-  border-radius: var(--ifm-badge-border-radius);       
-  padding: 0.1em 0.2em; */
-  font-size: 95%;
-  /* white-space: nowrap; */
-}
