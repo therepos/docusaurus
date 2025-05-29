@@ -56,7 +56,7 @@ npm run serve
 
 To understand more about how to use or customise the site, please refer to the official [Docusaurus Guides](https://docusaurus.io/docs/category/guides). 
 
-### 2.1 Structure
+### 2.1. Structure
 
 ```
 template-docusaurus
