@@ -12,11 +12,11 @@ To get started:
 
 3. Enable GitHub Pages:  
 
-    3.1. _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
+    _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
 
 4. Grant read and write permission:  
 
-    4.1. _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
+    _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
 5. Commit any file changes to publish the updates.  
 
