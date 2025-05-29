@@ -13,12 +13,11 @@
             <link>https://therepos.github.io/template-docusaurus/blog/2025/05/29/post</link>
             <guid>https://therepos.github.io/template-docusaurus/blog/2025/05/29/post</guid>
             <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[- Updated introductory guide.]]></description>
+            <description><![CDATA[- 2025-05-29 - Updated copyright.]]></description>
             <content:encoded><![CDATA[<ul>
-<li>Updated introductory guide.</li>
-</ul>
-<p>The blog wrapper is customised to show a different padding from the documentation container.</p>]]></content:encoded>
-            <category>dev</category>
+<li><strong>2025-05-29</strong> - Updated <a href="https://therepos.github.io/docusaurus/about/#license" target="_blank" rel="noopener noreferrer">copyright</a>.</li>
+<li><strong>2025-05-29</strong> - Updated <a href="https://therepos.github.io/docusaurus/about/" target="_blank" rel="noopener noreferrer">introductory guide</a>.</li>
+</ul>]]></content:encoded>
         </item>
     </channel>
 </rss>
