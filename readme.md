@@ -1,26 +1,36 @@
 # Docusaurus
-This is a template to deploy a basic Docusaurus site on GitHub Pages.
+This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) documentation site on GitHub Pages.  
 
-## GitHub Pages
+## 1. Deployment
+
+### 1.1. GitHub Pages
 To get started:
 
-1. Click the **Use this template** button (top-right).  
-2. Choose **Create a new repository**.  
-3. Enable GitHub Pages:  
-- Trigger the GitHub Actions workflow by editing any Markdown file.  
-- <em>Settings</em> > <em>Pages</em> > <em>Deploy from Branch</em> > **gh-pages**.  
-- <em>Settings</em> > <em>Actions</em> > <em>General</em> > <em>Workflow permission</em> > **Read and write permissions**.
-4. Visit your published site e.g. https://therepos.github.io/template-docusaurus/
+1\. Click the **Use this template** button (top-right).  
 
-## Local 
+2\. Choose **Create a new repository**.  
+
+3\. Enable GitHub Pages:  
+
+&nbsp;&nbsp;&nbsp; <em>Settings</em> > <em>Pages</em> > <em>Deploy from Branch</em> > **gh-pages**.  
+
+4\. Grant read and write permission:  
+
+&nbsp;&nbsp;&nbsp; <em>Settings</em> > <em>Actions</em> > <em>General</em> > <em>Workflow permission</em> > **Read and write permissions**.
+
+5\. Commit any file changes to publish the updates.  
+
+6\. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
+
+### 1.2. (Alternative) Local Deployment
 1\. To deploy it locally::  
 ```
-git clone https://github.com/therepos/docusaurus.git
+git clone https://github.com/therepos/template-docusaurus.git
 ```
 
 2\. Install npm packages:
 ```
-cd docusaurus
+cd template-docusaurus
 npm install
 npm run start
 ```
@@ -42,8 +52,27 @@ git push
 npm run serve
 ```
 
-## Licence
-This project is licensed under MIT. If you find this template useful and use it in your own project, a link back to the original repo would be appreciated!
+## 2. Guides
 
-## References
-- [Official Docusaurus Guide](https://docusaurus.io/docs)
+To understand more about how to use or customise the site, please refer to the official [Docusaurus Guides](https://docusaurus.io/docs/category/guides). 
+
+### 2.1 Structure
+
+```
+template-docusaurus
+├── .github/
+├── blog/  
+├── └── yyyy-mm-dd-post.md      # your blog post            
+├── docs/               
+│   └── about/                  # your section
+│       └── index.md            # your document
+├── src/
+├── static/
+├── docusaurus.config.js
+├── package.json
+├── readme.md           
+└── sidebars.js
+```
+
+## 3. License
+This project is licensed under MIT. If you find this template useful, please attribute a link to this repository.
