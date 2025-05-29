@@ -4,20 +4,21 @@
         <title>Docusaurus Blog</title>
         <link>https://therepos.github.io/template-docusaurus/blog</link>
         <description>Docusaurus Blog</description>
-        <lastBuildDate>Tue, 27 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Docusaurus Blog Template]]></title>
-            <link>https://therepos.github.io/template-docusaurus/blog/blog-template</link>
-            <guid>https://therepos.github.io/template-docusaurus/blog/blog-template</guid>
-            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Description goes here.]]></description>
-            <content:encoded><![CDATA[<p>This blog is created with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 3</strong></a>.</p>
+            <title><![CDATA[Updates]]></title>
+            <link>https://therepos.github.io/template-docusaurus/blog/2025/05/29/post</link>
+            <guid>https://therepos.github.io/template-docusaurus/blog/2025/05/29/post</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[- Updated introductory guide.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Updated introductory guide.</li>
+</ul>
 <p>The blog wrapper is customised to show a different padding from the documentation container.</p>]]></content:encoded>
-            <category>hello</category>
-            <category>docusaurus-v2</category>
+            <category>dev</category>
         </item>
     </channel>
 </rss>

@@ -2,24 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://therepos.github.io/template-docusaurus/blog</id>
     <title>Docusaurus Blog</title>
-    <updated>2025-05-27T00:00:00.000Z</updated>
+    <updated>2025-05-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://therepos.github.io/template-docusaurus/blog"/>
     <subtitle>Docusaurus Blog</subtitle>
     <icon>https://therepos.github.io/template-docusaurus/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Docusaurus Blog Template]]></title>
-        <id>https://therepos.github.io/template-docusaurus/blog/blog-template</id>
-        <link href="https://therepos.github.io/template-docusaurus/blog/blog-template"/>
-        <updated>2025-05-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description goes here.]]></summary>
-        <content type="html"><![CDATA[<p>This blog is created with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 3</strong></a>.</p>
+        <title type="html"><![CDATA[Updates]]></title>
+        <id>https://therepos.github.io/template-docusaurus/blog/2025/05/29/post</id>
+        <link href="https://therepos.github.io/template-docusaurus/blog/2025/05/29/post"/>
+        <updated>2025-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- Updated introductory guide.]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Updated introductory guide.</li>
+</ul>
 <p>The blog wrapper is customised to show a different padding from the documentation container.</p>]]></content>
-        <author>
-            <name>therepos</name>
-            <uri>https://github.com/therepos</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus-v2" term="docusaurus-v2"/>
+        <category label="dev" term="dev"/>
     </entry>
 </feed>
