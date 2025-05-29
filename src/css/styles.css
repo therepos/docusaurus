@@ -265,15 +265,11 @@ mark {
   margin: 0;
 }
 
-strong .dr {
-  color: darkred;
-}
-
-em {
-  background-color: var(--ifm-breadcrumb-item-background-active); 
+kbd {
+  /* background-color: var(--ifm-breadcrumb-item-background-active); 
   color: inherit;                     
   border-radius: var(--ifm-badge-border-radius);       
-  padding: 0.1em 0.2em;
+  padding: 0.1em 0.2em; */
   font-size: 95%;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
