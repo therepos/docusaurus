@@ -1,9 +1,9 @@
 # Docusaurus
 This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) documentation site on GitHub Pages.  
 
-## 1. Deployment
+## Deployment
 
-### 1.1. GitHub Pages
+### GitHub Pages
 To get started:
 
 1\. Click the **Use this template** button (top-right).  
@@ -22,7 +22,7 @@ To get started:
 
 6\. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
 
-### 1.2. (Alternative) Local Deployment
+### (Alternative) Local Deployment
 1\. To deploy it locally::  
 ```
 git clone https://github.com/therepos/template-docusaurus.git
@@ -58,11 +58,11 @@ git commit -m "Updates"
 git push
 ```
 
-## 2. Guides
+## Guides
 
 To understand more about how to use or customise the site, please refer to the official [Docusaurus Guides](https://docusaurus.io/docs/category/guides). 
 
-### 2.1. Structure
+### Structure
 
 ```
 template-docusaurus
@@ -80,5 +80,5 @@ template-docusaurus
 └── sidebars.js
 ```
 
-## 3. License
+## License
 This project is licensed under MIT. If you find this template useful, please attribute a link to this repository.
