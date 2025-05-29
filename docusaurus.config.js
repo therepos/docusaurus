@@ -1,5 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const currentYear = new Date().getFullYear();
+
 export default {
   title: 'Docusaurus',
   tagline: 'Docusaurus Tagline',
