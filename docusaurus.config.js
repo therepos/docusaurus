@@ -6,7 +6,7 @@ export default {
   url: 'https://therepos.github.io',
   baseUrl: '/template-docusaurus/',
   organizationName: 'therepos',
-  projectName: 'docusaurus',
+  projectName: 'template-docusaurus',
   deploymentBranch: 'gh-pages',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
