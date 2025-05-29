@@ -12,7 +12,7 @@ To get started, go to the [repository](https://github.com/therepos/template-docu
 
 3\. Enable GitHub Pages:  
 
-&nbsp;&nbsp;&nbsp; <em>Settings</em> > <em>Pages</em> > <em>Deploy from Branch</em> > **gh-pages**.  
+&nbsp;&nbsp;&nbsp; <em>Settings</em> > <em>Pages</em> > <em>Deploy from Branch</em> > <strong class="dr">gh-pages</strong>.  
 
 4\. Grant read and write permission:  
 
