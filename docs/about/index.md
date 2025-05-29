@@ -6,21 +6,21 @@ This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) do
 ### GitHub Pages
 To get started, go to the [repository](https://github.com/therepos/template-docusaurus) and follow the steps below:
 
-1\. Click the **Use this template** button (top-right).  
+1. Click the **Use this template** button (top-right).  
 
-2\. Choose **Create a new repository**.  
+2. Choose **Create a new repository**.  
 
-3\. Enable GitHub Pages:  
+3. Enable GitHub Pages:  
 
 &nbsp;&nbsp;&nbsp; _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
 
-4\. Grant read and write permission:  
+4. Grant read and write permission:  
 
 &nbsp;&nbsp;&nbsp; _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
-5\. Commit any file changes to publish the updates.  
+5. Commit any file changes to publish the updates.  
 
-6\. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
+6. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
 
 ### (Alternative) Local Deployment
 1\. To deploy it locally::  
