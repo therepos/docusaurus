@@ -1,5 +1,5 @@
 /* ========================================
-   Layout
+   Layout: Docs
 ======================================== */
 
 .pagination-nav {
@@ -10,15 +10,14 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  /* padding-left: 0.2rem; */
+  padding-left: 0.2rem;
   padding-right: var(--ifm-spacing-horizontal);
 }
 
-/* Blog Only */
-html.blog-wrapper .container {
-  max-width: var(--ifm-container-width-xl);
-  padding-left: var(--ifm-spacing-horizontal) !important;
-  padding-right: var(--ifm-spacing-horizontal) !important;
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 
 /* ========================================
@@ -262,6 +261,28 @@ h3.title_f1Hy {
   font-weight: 600;
 }
 
+/* Component: Container */
+html.blog-wrapper .container {
+  max-width: var(--ifm-container-width-xl);
+  padding-left: var(--ifm-spacing-horizontal) !important;
+  padding-right: var(--ifm-spacing-horizontal) !important;
+}
+
+/* Component: Read More */
+.col text--right col--3 {
+  text-align: left !important;
+}
+
+/* Component: Tags */
+.col--9 > b {
+  display: none;
+}
+
+/* 2. Remove bold from "Read more" */
+a[aria-label^="Read more"] b {
+  font-weight: normal;
+}
+
 /* ========================================
    Custom Text
 ======================================== */
@@ -273,4 +294,30 @@ mark {
   font-weight: normal;
   display: inline;
   margin: 0;
+}
+
+/* ========================================
+   Experimental
+======================================== */
+
+/* Make blog list items look like cards */
+article.margin-bottom--xl {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+/* Add hover effect */
+article.margin-bottom--xl:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Optional: add spacing between title and meta */
+article.margin-bottom--xl h2 {
+  margin-bottom: 0.5rem;
 }
