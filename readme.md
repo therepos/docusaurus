@@ -23,7 +23,7 @@ To get started:
 6. Visit your published site e.g. https://therepos.github.io/template-docusaurus/  
 
 ### (Alternative) Local Deployment
-1\.     To deploy it locally::  
+1\.&nbsp;&nbsp; To deploy it locally::  
 ```
 git clone https://github.com/therepos/template-docusaurus.git
 ```
