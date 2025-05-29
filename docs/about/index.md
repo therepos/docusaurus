@@ -11,9 +11,11 @@ To get started, go to the [repository](https://github.com/therepos/template-docu
 2. Choose **Create a new repository**.  
 
 3. Enable GitHub Pages:  
+
     _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
 
 4. Grant read and write permission:  
+
     _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
 5. Commit any file changes to publish the updates.  
