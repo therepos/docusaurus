@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_site=self.webpackChunkdocusaurus_site||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Events","items":[{"title":"Updates","permalink":"/template-docusaurus/blog/2025/05/29/post","unlisted":false,"date":"2025-05-29T00:00:00.000Z"}]}')}}]);
