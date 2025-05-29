@@ -12,7 +12,7 @@ To get started:
 
 3\. Enable GitHub Pages:  
 
-&nbsp;&nbsp;&nbsp; <kbd>Settings</kbd> > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
+&nbsp;&nbsp;&nbsp; _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
 
 4\. Grant read and write permission:  
 
