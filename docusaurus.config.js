@@ -68,6 +68,8 @@ export default {
       theme: prismThemes.github,
     },
     footer: {
+      style: 'dark',
+      links: [],
       copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos. Made with Docusaurus.`,
     },
   },
