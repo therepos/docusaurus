@@ -68,14 +68,7 @@ export default {
       theme: prismThemes.github,
     },
     footer: {
-      logo: {
-        alt: 'Meta Open Source Logo',
-        src: 'img/meta_oss_logo.png',
-        href: 'https://opensource.fb.com',
-        width: 160,
-        height: 51,
-      },
-      copyright: copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos. Made with Docusaurus.`,
+      copyright: `<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #ebedf0;">CC BY 4.0</a> © ${currentYear} therepos. Made with Docusaurus.`,
     },
   },
 };
