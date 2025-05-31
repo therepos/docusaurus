@@ -28,10 +28,13 @@ export default {
         blog: {
           path: 'blog',
           routeBasePath: 'blog',
-          showReadingTime: true,
+          // blogTitle: 'Blog',
+          // blogDescription: 'Thoughts and updates.',
+          // blogSidebarTitle: 'Timeline',
           blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
+          showReadingTime: true,
         },
         theme: {
           customCss: './src/css/styles.css',
