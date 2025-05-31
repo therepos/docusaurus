@@ -8,7 +8,6 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "framer-motion": "^10.16.3",
     "@docusaurus/core": "^3.0.1",
     "@docusaurus/preset-classic": "^3.0.1",
