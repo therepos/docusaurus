@@ -26,10 +26,9 @@ export default {
           editUrl: 'https://github.com/therepos/docusaurus/edit/main/',
         },
         blog: {
-          showReadingTime: true,
-          blogTitle: 'Blog',
-          blogDescription: 'Thoughts and updates.',
+          path: 'blog',
           routeBasePath: 'blog',
+          showReadingTime: true,
           blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
         },
