@@ -31,6 +31,7 @@ export default {
           showReadingTime: true,
           blogSidebarTitle: 'Timeline',
           blogSidebarCount: 'ALL',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/styles.css',
