@@ -14,9 +14,20 @@ export default function Home() {
       duration: 800,
       easing: 'ease-in-out'
     });
-    setTimeout(() => {
-      AOS.refresh(); // Ensures AOS recalculates positions
-    }, 500);
+
+    const handleScroll = () => {
+      const cards = document.querySelectorAll('.landing-card');
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const isOutOfView = rect.bottom < 0 || rect.top > window.innerHeight;
+        if (isOutOfView) {
+          card.classList.remove('aos-animate');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
