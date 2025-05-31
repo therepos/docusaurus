@@ -42,7 +42,7 @@ export default function Home() {
 
 function Card({ title, link, description }) {
   return (
-    <div className="landing-card" data-aos="fade-up">
+    <div className="landing-card" data-aos="zoom-in">
       <h3><Link to={link}>{title}</Link></h3>
       <p>{description}</p>
     </div>
