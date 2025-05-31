@@ -40,8 +40,8 @@ function AnimatedCard({ title, link, description }) {
   return (
     <motion.div
       className="landing-card"
-      initial={{ opacity: 0, scale: 0.9 }}
-      whileInView={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.9, ease: 'easeInOut' }}
       viewport={{ once: false, amount: 0.5 }}
     >
