@@ -14,6 +14,9 @@ export default function Home() {
       duration: 800,
       easing: 'ease-in-out'
     });
+    setTimeout(() => {
+      AOS.refresh(); // Ensures AOS recalculates positions
+    }, 500);
   }, []);
 
   return (
@@ -42,7 +45,7 @@ export default function Home() {
 
 function Card({ title, link, description }) {
   return (
-    <div className="landing-card" data-aos="zoom-in">
+    <div className="landing-card" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
       <h3><Link to={link}>{title}</Link></h3>
       <p>{description}</p>
     </div>
