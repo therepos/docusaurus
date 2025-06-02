@@ -59,8 +59,9 @@ export default {
         },
         {
           href: 'https://github.com/therepos/docusaurus',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
         {
           to: '/blog',
