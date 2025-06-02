@@ -70,6 +70,12 @@ export default {
         },
       ],
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     prism: {
       theme: prismThemes.github,
     },
