@@ -6,48 +6,52 @@ This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) do
 ### GitHub Pages
 To get started:
 
-1\.&nbsp;&nbsp; Click **Use this template** button at the top-right corner of the [repository](https://github.com/therepos/docusaurus).  
+1. Click **Use this template** button at the top-right corner of the [repository](https://github.com/therepos/docusaurus).  
 
-2\.&nbsp;&nbsp; Choose **Create a new repository**.  
+2. Choose **Create a new repository**.  
 
-3\.&nbsp;&nbsp; Grant read and write permission: `Settings` > `Actions` > `General` > `Workflow permission` > `Read and write permissions`.
+3. Grant read and write permission:
 
-4\.&nbsp;&nbsp; Configure GitHub Pages: `Settings` > `Pages` > `Deploy from Branch` > `gh-pages`.  
+    _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
-5\.&nbsp;&nbsp; Commit any file changes to publish the updates.  
+4. Configure GitHub Pages:
 
-6\.&nbsp;&nbsp; Visit your published site e.g. https://therepos.github.io/docusaurus/  
+    _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
+
+5. Commit any file changes to publish the updates.  
+
+6. Visit your published site e.g. https://therepos.github.io/docusaurus/  
 
 ### Local Deployment
-1\.&nbsp;&nbsp; To deploy it locally::  
+1. To deploy it locally::  
 ```
 git clone https://github.com/therepos/docusaurus.git
 ```
 
-2\.&nbsp;&nbsp; Install npm packages:
+2. Install npm packages:
 ```
 cd docusaurus
 npm install
 npm run start
 ```
 
-3\.&nbsp;&nbsp; Preview site locally:
+3. Preview site locally:
 ```
 npm run serve
 ```
 
-4\.&nbsp;&nbsp; Deploy locally:
+4. Deploy locally:
 ```
 npm run build
 ```
 
-5\.&nbsp;&nbsp; Push to gh-pages:
+5. Push to gh-pages:
 ```
 npm run build
 GIT_USER=<username> npm run deploy
 ```
 
-6\.&nbsp;&nbsp; Push to GitHub repo:
+6. Push to GitHub repo:
 ```
 git add . 
 git commit -m "Updates"
@@ -86,7 +90,9 @@ docusaurus
 
 ### FAQ
 
-1\.&nbsp;&nbsp; If the workflow failed due to missing package-lock.json: `Actions` > `Generate package-lock.json` > `Run workflow`.  
+1. If the workflow failed due to missing package-lock.json: 
+
+    _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
 
 ## License
 This work is licensed under [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#).   
