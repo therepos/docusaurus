@@ -14,6 +14,17 @@ To get started:
 
     _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
+    :::note
+    On initial commit, if deployment failed due to GitHub Actions requiring read and write permission, rerun the deployment workflow after [Step 3](#github-pages) above.
+    :::
+
+    :::note
+    If the workflow failed due to missing package-lock.json: 
+
+        _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
+
+    :::
+
 4. Configure GitHub Pages:
 
     _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
@@ -87,12 +98,6 @@ docusaurus
 ├── readme.md                   # optional
 └── sidebars.js
 ```
-
-### FAQ
-
-1. If the workflow failed due to missing package-lock.json: 
-
-    _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
 
 ## License
 This work is licensed under [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#).   
