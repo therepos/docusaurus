@@ -65,9 +65,9 @@ To get started:
     git push
     ```
 
-## Guides
+## Guide
 
-To understand more about how to use or customise the site, please refer to the official [Docusaurus Guides](https://docusaurus.io/docs/category/guides). 
+This guide is meant for a quick deploy. To understand more about how to use or customise the site, please refer to the official [Docusaurus Guides](https://docusaurus.io/docs/category/guides). 
 
 ### Structure
 
