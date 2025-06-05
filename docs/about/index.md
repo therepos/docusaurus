@@ -15,12 +15,9 @@ To get started:
     _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
     :::note
-    If deployment failed on initial commit, rerun the Deploy workflow after granting permission.
-    :::
-
-    :::note
-    If the workflow failed due to missing package-lock.json: 
-        _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
+    - If deployment failed on initial commit, rerun the Deploy workflow after granting permission.
+    - If the workflow failed due to missing package-lock.json:  
+          _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
     :::
 
 4. Configure GitHub Pages:
