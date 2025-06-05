@@ -15,7 +15,8 @@ To get started:
     _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
     :::note
-    - If deployment failed on initial commit, rerun the Deploy workflow after granting permission.
+    - If deployment failed on initial commit:  
+        Rerun the `Deploy gh-pages` workflow after granting permission.
     - If the workflow failed due to missing package-lock.json:  
           _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
     :::
@@ -70,14 +71,16 @@ To understand more about how to use or customise the site, please refer to the o
 
 ### Structure
 
+Docusaurus file system allows the use of `@import` across files, except the `static` directory where files are served as-is. The following diagram shows the file structure of a multi-section blog-enabled documentation site. The navigation bar and sidebars items are auto-generated based on the directories under `docs/`. Each sidebar represents a navbar item.
+
 ```
 docusaurus
-├── .github/
+├── .github/                    # github workflows
 ├── blog/  
 ├── └── yyyy-mm-dd-post.md      # blog post            
-├── docs/                       # (build-files)
-│   └── about/                  # navbar section
-│       └── index.md            # documents
+├── docs/                       # (build-files) multi-sidebars
+│   └── about/index.md          # documents section
+│   └── section/index.md        # documents section
 ├── src/                        # (frontend-files)
 │   ├── pages/index.js          # landing page e.g. react/jsx/mdx
 │   ├── theme/                  # theme customization
@@ -93,6 +96,23 @@ docusaurus
 ├── package.json                # dependencies, metadata
 ├── readme.md                   # optional
 └── sidebars.js                 # sidebars config
+```
+
+For a simpler dedicated documentation with a single sidebar:
+
+```
+docusaurus
+├── .github/          
+├── docs/                       # single-sidebar
+│   └── about/index.md          # expandable directory
+│   └── index.md                # landing page
+│   └── documents.md        
+├── src/                                     
+├── static/                              
+├── docusaurus.config.js        
+├── package-lock.json           
+├── package.json                
+└── sidebars.js                 
 ```
 
 ## License
