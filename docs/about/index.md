@@ -30,39 +30,39 @@ To get started:
 
 ### Local Deployment
 1. To deploy it locally::  
-```
-git clone https://github.com/therepos/docusaurus.git
-```
+    ```
+    git clone https://github.com/therepos/docusaurus.git
+    ```
 
 2. Install npm packages:
-```
-cd docusaurus
-npm install
-npm run start
-```
+    ```
+    cd docusaurus
+    npm install
+    npm run start
+    ```
 
 3. Preview site locally:
-```
-npm run serve
-```
+    ```
+    npm run serve
+    ```
 
 4. Deploy locally:
-```
-npm run build
-```
+    ```
+    npm run build
+    ```
 
 5. Push to gh-pages:
-```
-npm run build
-GIT_USER=<username> npm run deploy
-```
+    ```
+    npm run build
+    GIT_USER=<username> npm run deploy
+    ```
 
 6. Push to GitHub repo:
-```
-git add . 
-git commit -m "Updates"
-git push
-```
+    ```
+    git add . 
+    git commit -m "Updates"
+    git push
+    ```
 
 ## Guides
 
