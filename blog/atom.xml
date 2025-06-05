@@ -9,8 +9,8 @@
     <icon>https://therepos.github.io/docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Updates]]></title>
-        <id>https://therepos.github.io/docusaurus/blog/2025/05/29/post</id>
-        <link href="https://therepos.github.io/docusaurus/blog/2025/05/29/post"/>
+        <id>https://therepos.github.io/docusaurus/blog/2025/05/29</id>
+        <link href="https://therepos.github.io/docusaurus/blog/2025/05/29"/>
         <updated>2025-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 2025-06-05 - Enhanced config.js to configure key values according to repo.]]></summary>
         <content type="html"><![CDATA[<ul>
