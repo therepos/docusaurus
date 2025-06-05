@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://therepos.github.io/docusaurus/blog</id>
-    <title>Docusaurus Blog</title>
+    <title>therepos/docusaurus Blog</title>
     <updated>2025-05-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://therepos.github.io/docusaurus/blog"/>
-    <subtitle>Docusaurus Blog</subtitle>
+    <subtitle>therepos/docusaurus Blog</subtitle>
     <icon>https://therepos.github.io/docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Updates]]></title>
