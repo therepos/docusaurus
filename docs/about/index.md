@@ -15,7 +15,7 @@ To get started:
     _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
 
     :::note
-    On initial commit, if deployment failed due to GitHub Actions requiring read and write permission, rerun the deployment workflow after [Step 3](#github-pages) above.
+    If deployment failed on initial commit, rerun the Deploy workflow after granting permission.
     :::
 
     :::note
