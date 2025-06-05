@@ -79,24 +79,24 @@ To understand more about how to use or customise the site, please refer to the o
 docusaurus
 ├── .github/
 ├── blog/  
-├── └── yyyy-mm-dd-post.md      # your blog post            
+├── └── yyyy-mm-dd-post.md      # blog post            
 ├── docs/               
-│   └── about/                  # your section
-│       └── index.md            # your document
+│   └── about/                  # navbar section
+│       └── index.md            # documents
 ├── src/
-│   └── css/                    
-│       └── styles.css          # import css here
-│   └── data/                   # optional
-│   └── pages/                  
-│       └── index.js            # landing page
-├── static/
+│   ├── pages/index.js          # landing page (react/jsx/mdx)
+│   ├── theme/                  # theme customization
+│   └── css/styles.css          # import css here                    
+│   └── data/                   # optional (json/yaml)         
+├── static/                     # as-is no @import (non-Webpack)
 │   └── font/                   
-│   └── img/                    # your image files
-├── docusaurus.config.js
-├── package-lock.json           # for fast-build
-├── package.json
+│   └── img/        
+├── i18n/                       # localization (if enabled)            
+├── docusaurus.config.js        # main config
+├── package-lock.json           # reproducibility (cache build)
+├── package.json                # dependencies, metadata
 ├── readme.md                   # optional
-└── sidebars.js
+└── sidebars.js                 # sidebars config
 ```
 
 ## License
