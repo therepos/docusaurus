@@ -12,10 +12,11 @@
         <id>https://therepos.github.io/docusaurus/blog/2025/05/29/post</id>
         <link href="https://therepos.github.io/docusaurus/blog/2025/05/29/post"/>
         <updated>2025-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[- 2025-05-29 - Updated readme.]]></summary>
+        <summary type="html"><![CDATA[- 2025-06-05 - Enhanced config.js to dynamically identify repo.]]></summary>
         <content type="html"><![CDATA[<ul>
+<li><strong>2025-06-05</strong> - Enhanced <a href="https://github.com/therepos/docusaurus" target="_blank" rel="noopener noreferrer">config.js</a> to dynamically identify repo.</li>
 <li><strong>2025-05-29</strong> - Updated <a href="https://github.com/therepos/docusaurus" target="_blank" rel="noopener noreferrer">readme</a>.</li>
-<li><strong>2025-05-29</strong> - Updated <a href="https://therepos.github.io/docusaurus/about/" target="_blank" rel="noopener noreferrer">introductory guide</a>.</li>
+<li><strong>2025-05-29</strong> - Updated <a href="https://therepos.github.io/docusaurus/about/" target="_blank" rel="noopener noreferrer">about</a>.</li>
 </ul>]]></content>
     </entry>
 </feed>
