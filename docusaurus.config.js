@@ -1,11 +1,11 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const currentYear = new Date().getFullYear();
-const org = process.env.ORG_NAME
-const repo = process.env.PROJECT_NAME
+const org = process.env.ORG_NAME;
+const repo = process.env.PROJECT_NAME;
 
 export default {
-  title: process.env.SITE_TITLE
+  title: process.env.SITE_TITLE,
   tagline: 'Docusaurus Tagline',
   url: process.env.SITE_URL,
   baseUrl: process.env.BASE_URL,
