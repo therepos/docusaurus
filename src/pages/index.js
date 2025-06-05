@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { motion } from 'framer-motion';
-import UpdatesMarkdown from '@site/src/data/updates.md';
+import UpdatesMarkdown from '@site/src/data/landing-page-updates.md';
 
 export default function Home() {
   return (
