@@ -80,20 +80,21 @@ docusaurus
 ├── .github/
 ├── blog/  
 ├── └── yyyy-mm-dd-post.md      # blog post            
-├── docs/               
+├── docs/                       # (build-files)
 │   └── about/                  # navbar section
 │       └── index.md            # documents
-├── src/
-│   ├── pages/index.js          # landing page (react/jsx/mdx)
+├── src/                        # (frontend-files)
+│   ├── pages/index.js          # landing page e.g. react/jsx/mdx
 │   ├── theme/                  # theme customization
-│   └── css/styles.css          # import css here                    
-│   └── data/                   # optional (json/yaml)         
-├── static/                     # as-is no @import (non-Webpack)
+│   └── css/styles.css          # css entrypoint                 
+│   └── data/                   # read or imports e.g. json/yaml        
+├── static/                     # public as-is i.e. no @import
 │   └── font/                   
 │   └── img/        
-├── i18n/                       # localization (if enabled)            
+├── i18n/                       # (build-files) localization           
+├── scripts/                    # (backend-files)            
 ├── docusaurus.config.js        # main config
-├── package-lock.json           # reproducibility (cache build)
+├── package-lock.json           # reproducibility (cache-build)
 ├── package.json                # dependencies, metadata
 ├── readme.md                   # optional
 └── sidebars.js                 # sidebars config
