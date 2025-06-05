@@ -1,2 +1,3 @@
 # Docusaurus
-This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) documentation site on GitHub Pages.  Please refer to usage guide [here](https://therepos.github.io/docusaurus/about).
+This is a template to deploy a basic [Docusaurus](https://docusaurus.io/docs) documentation site on GitHub Pages.   
+Please refer to usage guide [here](https://therepos.github.io/docusaurus/about).
