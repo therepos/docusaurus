@@ -71,7 +71,7 @@ To understand more about how to use or customise the site, please refer to the o
 
 ### Structure
 
-Docusaurus file system allows the use of `@import` across files, except the `static` directory where files are served as-is. The following diagram shows the file structure of a multi-section blog-enabled documentation site. The navigation bar and sidebars items are auto-generated based on the directories under `docs/`. Each sidebar represents a navbar item.
+Docusaurus file system allows the use of `@import` across files, except the `static` directory where files are served as-is. The following diagram shows the file structure of a multi-sections blog-enabled documentation site. The navigation bar and sidebars items are auto-generated based on the directories under `docs/`. Each sidebar represents a navbar item.
 
 ```
 docusaurus
