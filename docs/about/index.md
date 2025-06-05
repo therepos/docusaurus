@@ -20,9 +20,7 @@ To get started:
 
     :::note
     If the workflow failed due to missing package-lock.json: 
-
         _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
-
     :::
 
 4. Configure GitHub Pages:
