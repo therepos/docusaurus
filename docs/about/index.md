@@ -10,19 +10,15 @@ To get started:
 
 2\.&nbsp;&nbsp; Choose **Create a new repository**.  
 
-3\.&nbsp;&nbsp; Grant read and write permission:  
+3\.&nbsp;&nbsp; Grant read and write permission: `Settings` > `Actions` > `General` > `Workflow permission` > `Read and write permissions`.
 
-    _Settings_ > _Actions_ > _General_ > _Workflow permission_ > **Read and write permissions**.
-
-4\.&nbsp;&nbsp; Enable GitHub Pages:  
-
-    _Settings_ > _Pages_ > _Deploy from Branch_ > **gh-pages**.  
+4\.&nbsp;&nbsp; Configure GitHub Pages: `Settings` > `Pages` > `Deploy from Branch` > `gh-pages`.  
 
 5\.&nbsp;&nbsp; Commit any file changes to publish the updates.  
 
 6\.&nbsp;&nbsp; Visit your published site e.g. https://therepos.github.io/docusaurus/  
 
-### (Alternative) Local Deployment
+### Local Deployment
 1\.&nbsp;&nbsp; To deploy it locally::  
 ```
 git clone https://github.com/therepos/docusaurus.git
@@ -90,7 +86,7 @@ docusaurus
 
 ### FAQ
 
-1\.&nbsp;&nbsp; If the workflow failed due to misisng package-lock.json,  _Actions_ > _Generate package-lock.json_ > **Run workflow**.  
+1\.&nbsp;&nbsp; If the workflow failed due to missing package-lock.json: `Actions` > `Generate package-lock.json` > `Run workflow`.  
 
 ## License
 This work is licensed under [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#).   
