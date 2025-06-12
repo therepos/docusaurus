@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const currentYear = new Date().getFullYear();
 const org = process.env.ORG_NAME;
 const repo = process.env.PROJECT_NAME;
-const sharedFooter = require('./sharedFooter');
+const sharedFooter = require('./footer');
 
 export default {
   title: process.env.SITE_TITLE,
