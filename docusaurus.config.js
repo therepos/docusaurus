@@ -91,8 +91,10 @@ export default {
             Made with Docusaurus.
           </div>
           <div class="footer-icons">
-            <a href="https://github.com" class="icon icon-github" target="_blank" aria-label="GitHub"></a>
+            <a href="https://github.com/therepos?tab=repositories" class="icon icon-github" target="_blank" aria-label="GitHub"></a>
             <a href="https://hub.docker.com" class="icon icon-docker" target="_blank" aria-label="Docker"></a>
+            <a href="https://therepos.github.io/proxmox/" class="icon icon-proxmox" target="_blank" aria-label="Proxmox"></a>
+            <a href="https://therepos.github.io/msexcel/" class="icon icon-excel" target="_blank" aria-label="Excel"></a>            
           </div>
         </div>
       `,
