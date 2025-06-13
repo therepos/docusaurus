@@ -13,7 +13,6 @@ export default {
   organizationName: process.env.ORG_NAME,
   projectName: process.env.PROJECT_NAME,
   deploymentBranch: 'gh-pages',
-  favicon: 'img/favicon.ico',
   trailingSlash: false,
 
   presets: [
