@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://therepos.github.io/docusaurus/blog"/>
     <subtitle>therepos/docusaurus Blog</subtitle>
-    <icon>https://therepos.github.io/docusaurus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Updates]]></title>
         <id>https://therepos.github.io/docusaurus/blog/2025/05/29</id>
