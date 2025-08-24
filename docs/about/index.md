@@ -118,9 +118,3 @@ docusaurus
 ## License
 This work is licensed under [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/#).   
 If you find this template useful, please attribute a link to this repository.
-
-## Resources
-- [Base64 Converter](https://base64.guru/converter/encode/image)
-- [Boxy SVG](https://boxy-svg.com/)
-- [Google Fonts](https://fonts.google.com/icons)
-- [Icons8](https://icons8.com/icons)
