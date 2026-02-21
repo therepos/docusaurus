@@ -4,15 +4,15 @@ Please refer to the usage guide [here](https://therepos.github.io/docusaurus/abo
 
 # Structure
 ```
-DOCUSAURUS
-├─ .github/                                 # Github Action workflows
-├─ blog/                                    # Blog
+docusaurus
+├─ .github/                                 # Github workflows
+├─ blog/                                    # Blog (optional)
 ├─ docs/                                    # Documentations
 ├─ src/                                     # Components
 │  ├─ css/                                    # Styles
 │  │  ├─ blog.css                               # Blog styles
 │  │  ├─ landing.css                            # Index page styles                               
-│  │  ├─ styles.css                             # (Docusaurus styles)
+│  │  ├─ styles.css                             # (Required docusaurus styles)
 │  │  └─ theme.css                              # Common styles
 │  ├─ data/
 │  │  └─ landing-page-updates.md
@@ -24,13 +24,13 @@ DOCUSAURUS
 ├─ static/                                  # Raws
 │  ├─ fonts/
 │  └─ img/
-├─ docusaurus.config.js                     # (Docusaurus settings)
-├─ footer.js                                # (Docusaurus footer settings)
+├─ docusaurus.config.js                     # (Required docusaurus settings)
+├─ footer.js                                # Docusaurus footer settings
 ├─ LICENSE
-├─ package-lock.json                        # (Docusaurus locks dependencies version)
-├─ package.json                             # (Docusaurus dependencies)
+├─ package-lock.json                        # Docusaurus locks dependencies version
+├─ package.json                             # (Required docusaurus dependencies)
 ├─ readme.md
-└─ sidebars.js                              # (Docusaurus sidebars settings)
+└─ sidebars.js                              # Docusaurus sidebars settings
 ```
 
 ## Notes
