@@ -352,11 +352,13 @@ pre {
   padding: 0.7rem 1rem !important;
 }
 
-html:not([data-theme='dark']) .codeBlock_bY9V,
 html:not([data-theme='dark']) .theme-code-block pre,
 html:not([data-theme='dark']) pre.prism-code,
-html:not([data-theme='dark']) .prism-code {
+html:not([data-theme='dark']) .prism-code,
+html:not([data-theme='dark']) .codeBlock_bY9V {
+  --ifm-pre-background: #fafafa !important;
   background: #fafafa !important;
+  background-color: #fafafa !important;
   margin: 0 !important;
   padding: 1rem !important;
 }
@@ -381,4 +383,14 @@ html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
   color: #fff !important;
   font-weight: 500 !important;
   padding: 0.7rem 1rem !important;
+}
+
+html[data-theme='dark'] .theme-code-block pre,
+html[data-theme='dark'] pre.prism-code,
+html[data-theme='dark'] .prism-code,
+html[data-theme='dark'] .codeBlock_bY9V {
+  --ifm-pre-background: transparent !important;
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 1rem !important;
 }
