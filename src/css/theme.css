@@ -355,8 +355,8 @@ pre {
 .theme-code-block pre,
 pre.prism-code,
 .prism-code {
-  background: transparent !important;
-  margin: 0;
+  background: rgba(250, 250, 250, 1) !important;
+  margin: 0 !important;
   padding: 1rem !important;
 }
 
@@ -370,9 +370,9 @@ html[data-theme='dark'] .theme-code-block {
 
 html[data-theme='dark'] .theme-code-block .codeBlockTitle_OeMC,
 html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(40, 40, 40, 0.45) !important;
-  backdrop-filter: blur(24px) saturate(140%) !important;
-  -webkit-backdrop-filter: blur(24px) saturate(140%) !important;
+  background: rgba(51, 51, 51, 0.82) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
   border-top-left-radius: 8px !important;
