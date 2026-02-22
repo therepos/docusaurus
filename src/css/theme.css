@@ -352,15 +352,11 @@ pre {
   padding: 0.7rem 1rem !important;
 }
 
-html:not([data-theme='dark']) .theme-code-block .codeBlockContent pre.prism-code,
-html:not([data-theme='dark']) .theme-code-block .codeBlockContent .prism-code,
-html:not([data-theme='dark']) .theme-code-block pre.prism-code,
-html:not([data-theme='dark']) .theme-code-block .prism-code,
-html:not([data-theme='dark']) .codeBlockBYV {
-  --ifm-pre-background: #fafafa !important;
-  background: #fafafa !important;
-  background-color: #fafafa !important;
-  margin: 0 !important;
+.theme-code-block pre,
+pre.prism-code,
+.prism-code {
+  background: transparent !important;
+  margin: 0;
   padding: 1rem !important;
 }
 
