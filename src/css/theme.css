@@ -340,16 +340,18 @@ pre {
 
 .theme-code-block .codeBlockTitle_OeMC,
 .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(255, 255, 255, 0.55) !important;
-  backdrop-filter: blur(32px) saturate(150%) !important;
-  -webkit-backdrop-filter: blur(32px) saturate(150%) !important;
-  border: 1px solid rgba(0,0,0,0.06) !important;
-  border-bottom: 1px solid rgba(0,0,0,0.12) !important;
-  border-top-left-radius: 8px !important;
-  border-top-right-radius: 8px !important;
-  color: #000 !important;
-  font-weight: 500 !important;
-  padding: 0.68rem 1rem !important;
+  background: var(--ifm-background-color, rgba(255, 255, 255, 0.6)) !important;
+  backdrop-filter: blur(30px) saturate(130%) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(130%) !important;
+  border: 1px solid var(--ifm-color-emphasis-200, rgba(0,0,0,0.08)) !important;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300, rgba(0,0,0,0.14)) !important;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+  color: var(--ifm-color-content, #000) !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  padding: 0.25rem 0.75rem !important;
+  margin-top: 0 !important;
 }
 
 .theme-code-block pre,
