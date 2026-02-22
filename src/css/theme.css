@@ -352,12 +352,14 @@ pre {
   padding: 0.7rem 1rem !important;
 }
 
-.theme-code-block pre,
-pre.prism-code,
-.prism-code {
-  background: rgba(250, 250, 250, 1) !important;
-  margin: 0 !important;
-  padding: 1rem !important;
+.theme-code-block .codeBlockContent pre.prism-code,
+.theme-code-block .codeBlockContent .prism-code,
+.theme-code-block pre.prism-code,
+.theme-code-block .prism-code,
+.codeBlockBYV {
+  --ifm-pre-background: #fafafa !important;
+  background: #fafafa !important;
+  background-color: #fafafa !important;
 }
 
 /* ===== Dark Mode ===== */
