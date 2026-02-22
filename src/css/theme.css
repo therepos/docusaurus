@@ -374,7 +374,7 @@ html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
   backdrop-filter: blur(24px) saturate(140%) !important;
   -webkit-backdrop-filter: blur(24px) saturate(140%) !important;
   border: 1px solid rgba(255,255,255,0.08) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.15) !important;   /* ← add or change this line */
+  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #fff !important;
