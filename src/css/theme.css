@@ -340,16 +340,16 @@ pre {
 
 .theme-code-block .codeBlockTitle_OeMC,
 .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(250, 250, 250, 0.45) !important;
-  backdrop-filter: blur(24px) saturate(140%) !important;
-  -webkit-backdrop-filter: blur(24px) saturate(140%) !important;
-  border: 1px solid rgba(0,0,0,0.08) !important;
-  border-bottom: none !important;
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(32px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(150%) !important;
+  border: 1px solid rgba(0,0,0,0.06) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.12) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #000 !important;
   font-weight: 500 !important;
-  padding: 0.7rem 1rem !important;
+  padding: 0.68rem 1rem !important;
 }
 
 .theme-code-block pre,
@@ -374,7 +374,7 @@ html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
   backdrop-filter: blur(24px) saturate(140%) !important;
   -webkit-backdrop-filter: blur(24px) saturate(140%) !important;
   border: 1px solid rgba(255,255,255,0.08) !important;
-  border-bottom: none !important;
+  border-bottom: 1px solid rgba(255,255,255,0.15) !important;   /* ← add or change this line */
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #fff !important;
