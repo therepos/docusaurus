@@ -33,8 +33,6 @@ docusaurus
 └─ sidebars.js                              # Docusaurus sidebars settings
 ```
 
-## Notes
-- This work is licensed under [CC4](https://choosealicense.com/licenses/cc-by-4.0/#). 
-
 ## Resources
+
 - [Docusaurus](https://docusaurus.io/docs)
