@@ -325,6 +325,11 @@ code, pre {
   display: none;
 }
 
-.codeBlockTitle_OeMC {
+.theme-code-block-title {
   background-color: #f0f0f0;
+}
+
+html[data-theme='dark'] .theme-code-block-title {
+  background-color: #1e1e2e;  /* match your dark theme */
+  color: #e0e0e0;
 }

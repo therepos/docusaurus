@@ -1,4 +1,4 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 const currentYear = new Date().getFullYear();
 const org = process.env.ORG_NAME;
@@ -25,7 +25,7 @@ export default {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
           sidebarCollapsible: true,
-          editUrl: ({docPath}) =>
+          editUrl: ({ docPath }) =>
             `https://github.dev/${org}/${repo}/blob/main/docs/${docPath}`,
         },
         blog: {
@@ -81,6 +81,8 @@ export default {
     },
     prism: {
       theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+      additionalLanguages: ['basic', 'vbnet', 'bash', 'git', 'powershell'],
     },
     footer: footer,
   },
@@ -94,7 +96,7 @@ export default {
 // 3. Modify sidebars.js
 // =============================================
 
-// import {themes as prismThemes} from 'prism-react-renderer';
+// import { themes as prismThemes } from 'prism-react-renderer';
 
 // const currentYear = new Date().getFullYear();
 // const org = process.env.ORG_NAME;
@@ -154,8 +156,10 @@ export default {
 //     },
 //     prism: {
 //       theme: prismThemes.github,
+//       darkTheme: prismThemes.dracula,
+//       additionalLanguages: ['basic', 'vbnet', 'bash', 'git', 'powershell'],
 //     },
-//    footer: footer,
+//     footer: footer,
 //   },
 // };
 
