@@ -329,16 +329,17 @@ code, pre {
   background-color: #f0f0f0;
 }
 
-/* shaded title, solid body */
+/* shaded title, transparent body */
 html[data-theme='dark'] div[class^='codeBlockContainer']{
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 8px;
   overflow: hidden;
+  background: transparent;
 }
 
-/* title bar */
+/* title bar — translucent shaded */
 html[data-theme='dark'] .theme-code-block-title{
-  background: #1e2430;
+  background: rgba(255,255,255,0.05);
   color: #8b949e;
   border-bottom: 1px solid rgba(255,255,255,0.1);
   padding: 0.5rem 1rem;
@@ -348,14 +349,14 @@ html[data-theme='dark'] .theme-code-block-title{
   letter-spacing: 0.03em;
 }
 
-/* code body (this is the key) */
+/* code body — transparent */
 html[data-theme='dark'] pre.prism-code{
-  background: #161b22 !important; /* GitHub-style dark body */
-  margin: 0;                     /* remove gap under title */
+  background: transparent !important;
+  margin: 0;
   padding: 1rem !important;
 }
 
-/* copy button — position in title bar area */
+/* copy button */
 html[data-theme='dark'] div[class^='codeBlockContainer'] button[class*='copyButton'] {
   background: transparent;
   border: 1px solid rgba(255,255,255,0.1);
