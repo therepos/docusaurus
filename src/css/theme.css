@@ -352,14 +352,16 @@ pre {
   padding: 0.7rem 1rem !important;
 }
 
-.theme-code-block .codeBlockContent pre.prism-code,
-.theme-code-block .codeBlockContent .prism-code,
-.theme-code-block pre.prism-code,
-.theme-code-block .prism-code,
-.codeBlockBYV {
+html:not([data-theme='dark']) .theme-code-block .codeBlockContent pre.prism-code,
+html:not([data-theme='dark']) .theme-code-block .codeBlockContent .prism-code,
+html:not([data-theme='dark']) .theme-code-block pre.prism-code,
+html:not([data-theme='dark']) .theme-code-block .prism-code,
+html:not([data-theme='dark']) .codeBlockBYV {
   --ifm-pre-background: #fafafa !important;
   background: #fafafa !important;
   background-color: #fafafa !important;
+  margin: 0 !important;
+  padding: 1rem !important;
 }
 
 /* ===== Dark Mode ===== */
