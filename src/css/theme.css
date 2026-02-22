@@ -329,7 +329,18 @@ code, pre {
   background-color: #f0f0f0;
 }
 
+html[data-theme='dark'] div[class^='codeBlockContainer'] {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0f172a; /* slightly darker than page */
+}
+
 html[data-theme='dark'] .theme-code-block-title {
-  background-color: #1e1e2e;  /* match your dark theme */
-  color: #e0e0e0;
+  background: #111827; /* slightly lighter than body */
+  color: #cbd5e1;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  letter-spacing: 0.3px;
 }
