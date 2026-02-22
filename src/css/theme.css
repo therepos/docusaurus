@@ -331,23 +331,42 @@ code, pre {
 
 /* shaded title, solid body */
 html[data-theme='dark'] div[class^='codeBlockContainer']{
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
   overflow: hidden;
 }
 
 /* title bar */
 html[data-theme='dark'] .theme-code-block-title{
-  background: #111827;
-  color: #cbd5e1;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  padding: 0.65rem 1rem;
-  font-weight: 500;
+  background: #1e2430;
+  color: #8b949e;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 /* code body (this is the key) */
 html[data-theme='dark'] pre.prism-code{
-  background: #0f172a !important; /* override Prism inline */
+  background: #161b22 !important; /* GitHub-style dark body */
   margin: 0;                     /* remove gap under title */
   padding: 1rem !important;
+}
+
+/* copy button — position in title bar area */
+html[data-theme='dark'] div[class^='codeBlockContainer'] button[class*='copyButton'] {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: #8b949e;
+  opacity: 0.8;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+html[data-theme='dark'] div[class^='codeBlockContainer'] button[class*='copyButton']:hover {
+  opacity: 1;
+  color: #c9d1d9;
+  background: rgba(255,255,255,0.05);
 }
