@@ -13,7 +13,7 @@ docusaurus
 │  │  ├─ blog.css                               # Blog styles
 │  │  ├─ landing.css                            # Index page styles                               
 │  │  ├─ styles.css                             # (Required docusaurus styles)
-│  │  └─ theme.css                              # Common styles
+│  │  └─ theme.css                              # Main styles
 │  ├─ data/
 │  │  └─ landing-page-updates.md
 │  ├─ pages/                                # Index page (optional)
