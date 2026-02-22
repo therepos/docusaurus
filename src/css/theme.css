@@ -329,4 +329,19 @@ code, pre {
   background-color: #f0f0f0;
 }
 
-/* Code Block: using Docusaurus defaults */
+/* dark mode: outlined code block with shaded title */
+html[data-theme='dark'] div[class^='codeBlockContainer']{
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+html[data-theme='dark'] .theme-code-block-title{
+  background: rgba(255,255,255,0.06);
+  color: #c9d1d9;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
