@@ -352,11 +352,11 @@ pre {
   padding: 0.7rem 1rem !important;
 }
 
-.theme-code-block pre,
-pre.prism-code,
-.prism-code {
-  background: transparent !important;
-  margin: 0;
+html:not([data-theme='dark']) .theme-code-block pre,
+html:not([data-theme='dark']) pre.prism-code,
+html:not([data-theme='dark']) .prism-code {
+  background: #fafafa !important;
+  margin: 0 !important;
   padding: 1rem !important;
 }
 
