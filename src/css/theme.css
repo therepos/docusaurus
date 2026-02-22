@@ -329,18 +329,25 @@ code, pre {
   background-color: #f0f0f0;
 }
 
-html[data-theme='dark'] div[class^='codeBlockContainer'] {
+/* shaded title, solid body */
+html[data-theme='dark'] div[class^='codeBlockContainer']{
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  background: #0f172a; /* slightly darker than page */
 }
 
-html[data-theme='dark'] .theme-code-block-title {
-  background: #111827; /* slightly lighter than body */
+/* title bar */
+html[data-theme='dark'] .theme-code-block-title{
+  background: #111827;
   color: #cbd5e1;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0.65rem 1rem;
   font-weight: 500;
-  padding: 0.6rem 1rem;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  letter-spacing: 0.3px;
+}
+
+/* code body (this is the key) */
+html[data-theme='dark'] pre.prism-code{
+  background: #0f172a !important; /* override Prism inline */
+  margin: 0;                     /* remove gap under title */
+  padding: 1rem !important;
 }
