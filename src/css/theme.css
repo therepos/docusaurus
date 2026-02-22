@@ -340,11 +340,11 @@ pre {
 
 .theme-code-block .codeBlockTitle_OeMC,
 .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(255, 255, 255, 0.82) !important;
+  background: rgba(240, 240, 240, 0.82) !important;
   backdrop-filter: blur(16px) saturate(180%) !important;
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-  border: 1px solid rgba(0,0,0,0.08) !important;
-  border-bottom: 1px solid rgba(0,0,0,0.14) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #000 !important;
@@ -373,8 +373,8 @@ html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
   background: rgba(40, 40, 40, 0.45) !important;
   backdrop-filter: blur(24px) saturate(140%) !important;
   -webkit-backdrop-filter: blur(24px) saturate(140%) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #fff !important;
