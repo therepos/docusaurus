@@ -300,51 +300,39 @@ body,
    Code Block
 ======================================== */
 
-code,
-pre {
+code, pre {
   white-space: pre;
   word-break: normal;
 }
 
-/* Scroll behavior */
-.codeBlockLines {
+/* Hide scrollbars */
+.codeBlockLines,
+.prism-code {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.codeBlockLines::-webkit-scrollbar {
-  display: none;
-}
-
-.prism-code {
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
+.codeBlockLines::-webkit-scrollbar,
 .prism-code::-webkit-scrollbar {
   display: none;
 }
 
-/* ===== Light Mode ===== */
-
+/* Light Mode */
 .theme-code-block {
-  border: 1px solid rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(0,0,0,0.18);
   border-radius: 6px;
   overflow: hidden;
   background: transparent;
-  /* no body color */
 }
 
-.theme-code-block .codeBlockTitle_OeMC,
 .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(240, 240, 240, 0.82) !important;
+  background: rgba(240,240,240,0.82) !important;
   backdrop-filter: blur(16px) saturate(180%) !important;
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.14) !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.14) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #000 !important;
@@ -353,31 +341,26 @@ pre {
 }
 
 html:not([data-theme='dark']) .theme-code-block pre,
-html:not([data-theme='dark']) pre.prism-code,
 html:not([data-theme='dark']) .prism-code,
 html:not([data-theme='dark']) .codeBlock_bY9V {
   --ifm-pre-background: #fafafa !important;
-  background: #fafafa !important;
-  background-color: #fafafa !important;
+  background: #fafafa !important !important;
   margin: 0 !important;
   padding: 1rem !important;
 }
 
-/* ===== Dark Mode ===== */
-
+/* Dark Mode */
 html[data-theme='dark'] .theme-code-block {
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255,255,255,0.18);
   background: transparent;
-  /* no body color */
 }
 
-html[data-theme='dark'] .theme-code-block .codeBlockTitle_OeMC,
 html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
-  background: rgba(51, 51, 51, 0.82) !important;
+  background: rgba(51,51,51,0.82) !important;
   backdrop-filter: blur(16px) saturate(180%) !important;
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
   color: #fff !important;
@@ -386,7 +369,6 @@ html[data-theme='dark'] .theme-code-block div[class*="codeBlockTitle"] {
 }
 
 html[data-theme='dark'] .theme-code-block pre,
-html[data-theme='dark'] pre.prism-code,
 html[data-theme='dark'] .prism-code,
 html[data-theme='dark'] .codeBlock_bY9V {
   --ifm-pre-background: transparent !important;
