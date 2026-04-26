@@ -481,10 +481,8 @@ article h4 {
 .markdown a,
 article a {
   font-weight: 500;
-  color: #1D242F;
-  text-decoration: underline;
-  text-decoration-color: #cbd5e0;
-  text-decoration-thickness: 1px;
+  color: var(--ifm-link-color);
+  text-decoration: none;
 }
 
 .markdown .lede,
