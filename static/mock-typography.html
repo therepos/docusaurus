@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Typography Wireframe Mock</title>
+<style>
+  body {
+    margin: 0;
+    background: #fff;
+    color: #1D242F;
+    font-family: 'Inter', Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  .label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+    background: #f7fafc;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .variant {
+    margin-bottom: 80px;
+  }
+  .variant + .variant {
+    border-top: 1px dashed #cbd5e0;
+    padding-top: 48px;
+  }
+
+  /* ---- Shared body typography (matches site) ---- */
+  .variant h1 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #1D242F;
+    margin: 0;
+  }
+  .variant h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1D242F;
+    margin: 48px 0 24px;
+  }
+  .variant h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #1D242F;
+    margin: 32px 0 16px;
+  }
+  .variant p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 16px;
+  }
+  .variant a {
+    color: #1D242F;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .lede {
+    font-size: 18px;
+    line-height: 28px;
+    color: #718096;
+    margin: 0 0 32px;
+  }
+
+  /* ---- Variant A: no rules (current Prisma-style) ---- */
+  .variant-a h1,
+  .variant-a h2,
+  .variant-a h3 {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  /* ---- Variant B: Wikipedia-style rule on H1 + H2 only ---- */
+  .variant-b h1 {
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+  }
+  .variant-b h2 {
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 4px;
+    margin: 48px 0 16px;
+  }
+  .variant-b h3 {
+    border-bottom: none;
+  }
+
+  /* ---- Variant C: Rule on H2 only (most common docs pattern) ---- */
+  .variant-c h2 {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin: 48px 0 20px;
+  }
+
+  /* ---- Variant D: Rule on H2 + H3, lighter on H3 ---- */
+  .variant-d h2 {
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 6px;
+    margin: 48px 0 20px;
+  }
+  .variant-d h3 {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+    margin: 32px 0 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="variant variant-a">
+      <span class="label">Variant A &middot; Current (no rules)</span>
+      <h1>SQL Server</h1>
+      <p class="lede">Add Prisma ORM to an existing TypeScript project with SQL Server and learn database introspection, baselining, and querying.</p>
+      <p>SQL Server is Microsoft&rsquo;s enterprise relational database management system known for its performance, security, and integration with Microsoft tools. In this guide, you will learn how to add Prisma ORM to an existing TypeScript project and connect it to <a href="#">SQL Server</a>.</p>
+      <h2>Prerequisites</h2>
+      <p>Before you begin, make sure you have the following installed: Node.js 18+, a SQL Server instance you can reach, and the connection string for your database.</p>
+      <h3>Operating system</h3>
+      <p>Prisma ORM runs on macOS, Linux, and Windows. The instructions below were verified on Ubuntu 22.04.</p>
+      <h2>1. Install Prisma</h2>
+      <p>Run <a href="#">npm install prisma</a> in your project root. This adds the Prisma CLI as a dev dependency.</p>
+    </div>
+
+    <div class="variant variant-b">
+      <span class="label">Variant B &middot; Wikipedia rule on H1 + H2</span>
+      <h1>SQL Server</h1>
+      <p class="lede">Add Prisma ORM to an existing TypeScript project with SQL Server and learn database introspection, baselining, and querying.</p>
+      <p>SQL Server is Microsoft&rsquo;s enterprise relational database management system known for its performance, security, and integration with Microsoft tools. In this guide, you will learn how to add Prisma ORM to an existing TypeScript project and connect it to <a href="#">SQL Server</a>.</p>
+      <h2>Prerequisites</h2>
+      <p>Before you begin, make sure you have the following installed: Node.js 18+, a SQL Server instance you can reach, and the connection string for your database.</p>
+      <h3>Operating system</h3>
+      <p>Prisma ORM runs on macOS, Linux, and Windows. The instructions below were verified on Ubuntu 22.04.</p>
+      <h2>1. Install Prisma</h2>
+      <p>Run <a href="#">npm install prisma</a> in your project root. This adds the Prisma CLI as a dev dependency.</p>
+    </div>
+
+    <div class="variant variant-c">
+      <span class="label">Variant C &middot; Subtle rule on H2 only (lighter gray)</span>
+      <h1>SQL Server</h1>
+      <p class="lede">Add Prisma ORM to an existing TypeScript project with SQL Server and learn database introspection, baselining, and querying.</p>
+      <p>SQL Server is Microsoft&rsquo;s enterprise relational database management system known for its performance, security, and integration with Microsoft tools. In this guide, you will learn how to add Prisma ORM to an existing TypeScript project and connect it to <a href="#">SQL Server</a>.</p>
+      <h2>Prerequisites</h2>
+      <p>Before you begin, make sure you have the following installed: Node.js 18+, a SQL Server instance you can reach, and the connection string for your database.</p>
+      <h3>Operating system</h3>
+      <p>Prisma ORM runs on macOS, Linux, and Windows. The instructions below were verified on Ubuntu 22.04.</p>
+      <h2>1. Install Prisma</h2>
+      <p>Run <a href="#">npm install prisma</a> in your project root. This adds the Prisma CLI as a dev dependency.</p>
+    </div>
+
+    <div class="variant variant-d">
+      <span class="label">Variant D &middot; Rule on H2 + lighter rule on H3</span>
+      <h1>SQL Server</h1>
+      <p class="lede">Add Prisma ORM to an existing TypeScript project with SQL Server and learn database introspection, baselining, and querying.</p>
+      <p>SQL Server is Microsoft&rsquo;s enterprise relational database management system known for its performance, security, and integration with Microsoft tools. In this guide, you will learn how to add Prisma ORM to an existing TypeScript project and connect it to <a href="#">SQL Server</a>.</p>
+      <h2>Prerequisites</h2>
+      <p>Before you begin, make sure you have the following installed: Node.js 18+, a SQL Server instance you can reach, and the connection string for your database.</p>
+      <h3>Operating system</h3>
+      <p>Prisma ORM runs on macOS, Linux, and Windows. The instructions below were verified on Ubuntu 22.04.</p>
+      <h2>1. Install Prisma</h2>
+      <p>Run <a href="#">npm install prisma</a> in your project root. This adds the Prisma CLI as a dev dependency.</p>
+    </div>
+
+  </div>
+</body>
+</html>
