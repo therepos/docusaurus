@@ -483,6 +483,8 @@ article a {
   font-weight: 500;
   color: #1D242F;
   text-decoration: underline;
+  text-decoration-color: #cbd5e0;
+  text-decoration-thickness: 1px;
 }
 
 .markdown .lede,
