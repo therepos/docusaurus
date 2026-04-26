@@ -496,3 +496,11 @@ article .lede {
   color: #718096;
   margin: 0 0 8px;
 }
+
+.markdown hr,
+article hr {
+  height: 1px;
+  border: 0;
+  background-color: #cbd5e0;
+  margin: 24px 0;
+}
