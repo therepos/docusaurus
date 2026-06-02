@@ -334,7 +334,8 @@ code, pre {
 
 /* Hide scrollbars */
 .codeBlockLines,
-.prism-code {
+.prism-code,
+.theme-code-block pre {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -342,7 +343,8 @@ code, pre {
 }
 
 .codeBlockLines::-webkit-scrollbar,
-.prism-code::-webkit-scrollbar {
+.prism-code::-webkit-scrollbar,
+.theme-code-block pre::-webkit-scrollbar {
   display: none;
 }
 
