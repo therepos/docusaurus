@@ -348,6 +348,14 @@ code, pre {
   display: none;
 }
 
+.theme-code-block pre.thin-scrollbar {
+  scrollbar-width: none !important;
+}
+
+.theme-code-block pre.thin-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
 /* Light Mode */
 .theme-code-block {
   border: 1px solid rgba(0,0,0,0.18);
